@@ -1,0 +1,2356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02195F29F0FC8F97FBDFACC5B3DBEA33 /* CocoaMQTTDeliver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A409AC3826BA7385908D5005B015595D /* CocoaMQTTDeliver.swift */; };
+		024D7D976E6945BE7A702D62C02E5E16 /* QiscusCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 665740E50830132EC07DCC1F4180975C /* QiscusCore-dummy.m */; };
+		0261D8E366BAE9B181D788982040179D /* QiscusThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079532D3678F97C14997CF7008382478 /* QiscusThread.swift */; };
+		02E9F2E3525F78E5AE2C0A77A4592FE8 /* CocoaMQTTLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42F15F861B2DC1AF190D4C6282830DE /* CocoaMQTTLogger.swift */; };
+		03DEAD52489CEC4FE9E5E47DFE7AFD7F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C1819CE6345BA8B5EDE7E7EE4C6B80 /* Model.swift */; };
+		08065F64D7582CADED58665B6A6D2468 /* Pods-Simple Chat App-Simple Chat AppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50EB9E477D8837B73E899F63BC166CC4 /* Pods-Simple Chat App-Simple Chat AppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F458A2F91BF7433A936F7A1E689D275 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15446F076DEBE3C5FB9E771D2A50EE2F /* SwiftyJSON.swift */; };
+		0F9861189481C61905A67887B5F17CC8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D0AE4062AEFB88BE2B6BDD9D68C02F /* MobileCoreServices.framework */; };
+		11D0779ED6BE78A281420401C348DA81 /* CocoaMQTTTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B345321C834F56C2AEC3DD7E4F3311 /* CocoaMQTTTimer.swift */; };
+		12F482FE2022286A223FFC9BFA84F83A /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 447D42B93B88AC48393148EEC71455BC /* CocoaAsyncSocket-dummy.m */; };
+		13295896F2DA5E91D15212182C2D4ABB /* Pods-Simple Chat App-Simple Chat AppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9110D9767C85EFD12D2F09DECF37516F /* Pods-Simple Chat App-Simple Chat AppUITests-dummy.m */; };
+		1972BAFA5D054197CF774B51E3DF44A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA644465D32AC73BD3446307C6BF80E4 /* Foundation.framework */; };
+		19CA1C924711A240A47FB69A7E5D4F0B /* HTTPUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6783EE30C8E9435A7CA2B5A4D9470609 /* HTTPUtil.swift */; };
+		1E0D10660FBF21F7DC0B029B0C129BEC /* QiscusRealtime-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E32EC9134D50FC143D33D2FBBB903593 /* QiscusRealtime-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F9A97EACB8477A6FBB37B0C3B826F7A /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D550BACACAFD6ADA5CA0BA060A10215 /* Endpoint.swift */; };
+		1FDE4A8398981A79064A1B3274E7A057 /* NetworkMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA761299F21920BEC6EA8614054F12 /* NetworkMessage.swift */; };
+		25835F9B24A256E41FB15CC8C6B50EE2 /* QiscusChannels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68797F8F853EEE924F29538C34B64C08 /* QiscusChannels.swift */; };
+		26F87A3DC73299D66231DFE835E9C13D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA644465D32AC73BD3446307C6BF80E4 /* Foundation.framework */; };
+		26FEC450FB83418B25675064C905E456 /* Room+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF90746E9A076F94B2F0F896C7651D7 /* Room+CoreDataClass.swift */; };
+		2B6E4AA860AD7E0F50F91063D00CB707 /* QiscusSyncEventInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FE3B4534B58A7E9F5A2EECD130497B /* QiscusSyncEventInterval.swift */; };
+		2B975EBEA22E94C7FA55A05323FEF864 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA644465D32AC73BD3446307C6BF80E4 /* Foundation.framework */; };
+		2CB7DC807CC21730D95F9E0699931CBC /* Qiscus.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = DE02EA790F13863B6E3C3DB113311B45 /* Qiscus.xcdatamodeld */; };
+		3267077488AA3CBEF588518BDE5F90B0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7E019C910EC8DB88DF0FD521071A8 /* NetworkManager.swift */; };
+		3270572D3E47C8B777EDEA003BF48E9D /* FramePublish.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB11848A7AE274FD5E83C283248B3C2F /* FramePublish.swift */; };
+		337747450FF0F385219FDF6961B6A018 /* GenericModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA88B4F9DD96BE1C062F5CD15EC394E /* GenericModel.swift */; };
+		33A88215D5655DDBF56DEAA41CC8D8DA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4475CE5F8B8B89965F77255A1DBE031 /* CFNetwork.framework */; };
+		35395CC3F19068C60265A84BCBBA0B66 /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B49A5B6A80BEF3E9445551F64D9011 /* CommentModel.swift */; };
+		354025A7130FCA0F884AF48C064D2048 /* RoomEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEE95874ABF6CDBFA6D5A2DE70D7EE5 /* RoomEvent.swift */; };
+		37596E17F6AFEDA45486A2A0396EDEAB /* ConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B713298DB3F86D4D984BC435F06BB1 /* ConfigManager.swift */; };
+		37B0BF2484BE142772F5429AEE5CF0B1 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B20C839F25462E6B91DDDC9917679AA /* GCDAsyncUdpSocket.m */; };
+		37D148371BF314CE071A623877A3931C /* FrameUnsubAck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E683181D53BE2E6E37532337BD01E578 /* FrameUnsubAck.swift */; };
+		39753D2DFE53EBBCDF9F20CDBB951589 /* QiscusStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F83270B4D1CBA8B888E4EB7916D7DEA /* QiscusStorage.swift */; };
+		39F7C544A4AE8EEBA4483600A63DA25C /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301388F88417C965C3AE2CBD515823AD /* DownloadService.swift */; };
+		3A43C7B9AEC0D2A7E97AE63C130E5155 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7017D11B3794514CD0E4378C1F315FAB /* SwiftyJSON-dummy.m */; };
+		4472BEB66C777CB9DE234A0138C6F652 /* CocoaMQTT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD1FB2B7A99990B844802B6B701524A /* CocoaMQTT.swift */; };
+		475CCC9E599533A6C995C52CF9ADFE59 /* QiscusComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8A9186F99A5A3CAABCB992A4DC7A5C /* QiscusComment.swift */; };
+		48E5390543282E7E009AA0C0196E2836 /* CocoaMQTTStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C8E30A4C8EB20E3BD81484D1040760 /* CocoaMQTTStorage.swift */; };
+		491FE8877DD6D9C8C5EEA78303482F3C /* CommentStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0627055E075784E2FD656C73B632B69D /* CommentStorage.swift */; };
+		4A301614C6AFCC8E3686A49937B45A54 /* FrameDisconnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C092DC3A19318EA0EF97EA57BD81B6F /* FrameDisconnect.swift */; };
+		4AEA13BBDD8C8ED66109574612A098E6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4475CE5F8B8B89965F77255A1DBE031 /* CFNetwork.framework */; };
+		4E14273031857E811B414C9DE4372C8F /* QUserPresence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5380B8F2552BE491665C9633FA4CFC /* QUserPresence.swift */; };
+		4FC2272F4C11472C903CFCC6A101313E /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CE1A13649055AD6D6E82A59E333329 /* GCDAsyncSocket.m */; };
+		51F5ED0A47B56B618DECF6EDAA9C0DBB /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF3758356BB8A8E35953A0F6772C9DD /* ParameterEncoding.swift */; };
+		5274A63749E3F46B4E37FD004E6F9F8F /* FrameConnAck.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA84CCCF86210EFDE9936AC9705F07F6 /* FrameConnAck.swift */; };
+		536AF3C35ED781E1FA5699296E22912B /* QiscusReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF212EF55A1800E42DA62BA1330F0346 /* QiscusReachability.swift */; };
+		5A7BFF69CA7D40BED8C3B26FCE8633C2 /* UIDeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E421A144DF7CDB51F374517CE1660D1 /* UIDeviceInfo.swift */; };
+		5B6021E1EDA1CA70C384103034469D7B /* NetworkRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AC34CDBD7092D01AB4FB8A3C25F541 /* NetworkRoom.swift */; };
+		5CAD9272E8202721B8DDE8770E060AD0 /* FramePingReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDA87681E797C2C33569C7BBCF9E15D /* FramePingReq.swift */; };
+		5D9965A173ECC1DFAC0811B9271F84DF /* FramePingResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F64A0AAE5526CC2E5E31C5696EF69C1 /* FramePingResp.swift */; };
+		5DA625B215DDC106AF59B7E7AFF7A22F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B71AAF788DFCD19B7120E7862E53FA74 /* CoreData.framework */; };
+		5DBD37C3831E3D3DED505333DCB6558C /* Comment+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AB27E401A758C472796BC3EA1A41E7 /* Comment+CoreDataClass.swift */; };
+		67A4DC4B4DB5321811BC3D3627AE855E /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = DF3F98D9C4A0C50A6FCFAC27DF4BC01E /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AD4A1409EF94452BAA288F30CFFBACD /* QiscusCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2670BBAD18800E74BD0E29D4F6002EB3 /* QiscusCore.swift */; };
+		6B99886475E4E27B8AE0E8FFF8E80A8D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE794DD10FC7085499A1AB52D2E8A91 /* QuartzCore.framework */; };
+		6C98AB6AB8021AE5496F89DDA25A856B /* AppConfigModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F65CF4256F8B8F47A83635E7052F8A /* AppConfigModel.swift */; };
+		72C6BE7F9AD80477C14C8F1B66C2ABC2 /* EndpointRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85F9C17BB55D23EA480A0376432EBAA /* EndpointRoom.swift */; };
+		74027694EB79785DAF4CCDD4D8AB7909 /* QiscusRealtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20690D29F8CB70AFD8F86E6762F5F179 /* QiscusRealtime.swift */; };
+		7476381EC5AF9C29DCB991A463ED0F84 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B5564EDD7E549ED331FA36E08F3D55 /* Protocol.swift */; };
+		7509F4EAF8C5FF7599FEB77D6C42E396 /* RoomStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13048B73F1A91C027C8627183075FEC1 /* RoomStorage.swift */; };
+		76E807C55A2B52840533EDB5B22856DC /* MqttClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0701169D42530F3A20CB8B919E1FF7 /* MqttClient.swift */; };
+		7715B10A274CE363A282054201D5AA7A /* FrameSubAck.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC279C5916FE8155506D33333D6F5E4 /* FrameSubAck.swift */; };
+		78367A09A7D4921579F8B24ED74B991C /* LBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C176B81F1F6C95C3838A4BC93936532A /* LBModel.swift */; };
+		7853B99A335FC7FDAD99DA91882086D1 /* ActiveRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBDC094BF54BB8E1D2DA38BF7165BCA /* ActiveRecord.swift */; };
+		7873D5278392D33747E1557FCE3749D5 /* CocoaMQTT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4898808F75DCC6EA0282DE20356EC4D7 /* CocoaMQTT-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78B48C5B53F636B7B02B111BD7C28858 /* RoomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029DF5ED9C07A9C6D4E2605633F6A7D2 /* RoomModel.swift */; };
+		7C1DD31A3A7A0FBBA1A9C88A92CAA28C /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D75A8521D7DA515A0CE97531514585D6 /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		817575E9850504AA7D26C53FE0B1F515 /* QiscusDatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA6E74638579446D7B5355720D5238 /* QiscusDatabaseManager.swift */; };
+		818E1041D6CAC17CF36590FD138B75B8 /* FrameSubscribe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD375C426B7DA9D48B24E80D5196A381 /* FrameSubscribe.swift */; };
+		8596042CF00B859E386EEDDC328E8490 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 704C4803BAC52780B567FD36D9F1D8BE /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85E56D5F0E1FF85A89D53E917465294F /* Room+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FAB23133983FB32FAB72326167EFCD /* Room+CoreDataProperties.swift */; };
+		8720504F1FF6A83A2B798C2F4F553A94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA644465D32AC73BD3446307C6BF80E4 /* Foundation.framework */; };
+		872E0DE606FB4D149A9121B87E1A6A12 /* EndpointUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DAE1C6858FFAFC2D29218D72986988 /* EndpointUser.swift */; };
+		878E789D6562449B702DD40FA41ADC64 /* FramePubAck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E51AAE91D21DC0DD9567276E5E699E8 /* FramePubAck.swift */; };
+		8861DA09219E12C0A1DBA07EB1CEB94A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CCCC8D31D0E17A9F06857D19C7187F8 /* Security.framework */; };
+		88633994CA2CFBFC6804CF62AFE61D83 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D0AE4062AEFB88BE2B6BDD9D68C02F /* MobileCoreServices.framework */; };
+		8916321F94FB02AAFE450411AF34FC3E /* RealtimeConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EE3336F77464EF61766A699A902A8 /* RealtimeConfig.swift */; };
+		89B687A8DD0FC97349BC3B88FEABF6F7 /* QiscusHeartBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ACF236A8CC7BB5806E17DFEB019CEB /* QiscusHeartBeat.swift */; };
+		8CF8BE31C4E5746BD787762C1C907226 /* CocoaMQTTTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36430006E0F6BB774D037FF85F2C03F9 /* CocoaMQTTTypes.swift */; };
+		8D4251231F89393E8809F4E3F2BC488B /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119596D4B0248FEC0D71AEB7BC964B01 /* ParameterEncoder.swift */; };
+		8E4CB623C10D9872F19B2B0B0C6FE1C7 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F909C45A9E2E53A79474F6B2A1C6FD8 /* ApiResponse.swift */; };
+		A1C65B2FE5500F19001669304812B5DA /* FramePubComp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257279ACB6E86928D374E065A0E17FE /* FramePubComp.swift */; };
+		A25058966EC32D5BCC74239A7546FF05 /* NonceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C30394AE178CD193BFF8A79E5DE32B /* NonceModel.swift */; };
+		A31C09C9EB3E18156328DFE21E2073C0 /* MemberDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C667BA185C0D269DFD84DEE44E0AAA /* MemberDatabase.swift */; };
+		A3892D8D8C79835D4731BEBE5134DE8B /* FrameConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9ED0F44A989EB882A05AD4927538F7 /* FrameConnect.swift */; };
+		A6283F504A50FC179F8A6AF3C707E424 /* FramePubRec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763239769C60F28CC08A72F75BDC2A9 /* FramePubRec.swift */; };
+		A735911EACA911CF9550CFD0D9648402 /* Pods-Simple Chat App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B56354F727C63379F1A5EF62A8859642 /* Pods-Simple Chat App-dummy.m */; };
+		ABDE012754F5AB86BFD2BE85C5FAFCCF /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF66C8F3CFCD3099C8BB3EF39FFC22C2 /* Frame.swift */; };
+		AF6A16B794477DEA9170279E5BE8F7DE /* QiscusCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BE575BDB5BF3B3C29F19960C117AF31 /* QiscusCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B01632489316745EED98E6ECC1E1898E /* RealtimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3D8CB29F43C5646537D2D977279282 /* RealtimeManager.swift */; };
+		B02E21F3ABF7A50DEEDBD6CFED3265A5 /* QiscusRealtimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8817B5D2B2257538C955D97EAFE3EFF3 /* QiscusRealtimeManager.swift */; };
+		B19D3C79B36157522E7662E737D558EF /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D9C327A572B8C7A97183C86F3CB8D9E /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2D89831063B926E28EBF0AC40510535 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA644465D32AC73BD3446307C6BF80E4 /* Foundation.framework */; };
+		B2E095A2AD2FE44657C28844DCDCC660 /* FileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1517F812625EA29195EAF30826C6967 /* FileModel.swift */; };
+		B4FA49CA29CAD7B9B5D7A9B4C2CBAB7B /* FramePubRel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E519D5C6CDCAD368D904A72647F5E6 /* FramePubRel.swift */; };
+		B5C5A194618E775B80A1CE573E734927 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA644465D32AC73BD3446307C6BF80E4 /* Foundation.framework */; };
+		B71E8B492E55FE3BB53559A5429450D0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CCCC8D31D0E17A9F06857D19C7187F8 /* Security.framework */; };
+		B87729108B5137AB04657E64452B27F5 /* QRLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7972DA410A3834242E941DABAB9D80B2 /* QRLogger.swift */; };
+		B98B1DE3DD530748C8C9ECC1BDC0A1F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B8DB02559F52C447089AC7B3E23FF4 /* UIKit.framework */; };
+		BBEBEA0D0FB8F80019A1F082DB47FD59 /* QiscusCore-QiscusCore in Resources */ = {isa = PBXBuildFile; fileRef = 973F7F230E1A14D2EE7D1EA4EA017D59 /* QiscusCore-QiscusCore */; };
+		BC4D61E414EAAA2A8885F7FD1CBED2AD /* QiscusCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F74B2CC9F2B85117D8B7B541D93582C /* QiscusCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD0BF97A30CC7CC232E3612B3A0C4EAA /* CommentInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7DF353B53613EC0456F30C5A63CF1 /* CommentInfo.swift */; };
+		C02F2384AB8EC6DB5A41A134BA7A81B8 /* Member+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3B02CC0F79FC69EB196358659971D2 /* Member+CoreDataClass.swift */; };
+		C0B9C619DC8624A85D2D4623499412ED /* Data+Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64576F20AA27C7EB4A64182BB440D47D /* Data+Json.swift */; };
+		C345F4C4E9027913A58E0170C2E225F0 /* QiscusLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00545881DFCBADC58A816B37554A264 /* QiscusLogger.swift */; };
+		C4897DB3A4CA7ACA1B96294F233DF40A /* QiscusRealtime.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BCBCDDCEEF505A2C641543E50A456B3 /* QiscusRealtime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C627CED7627055FADDE5A67EACC8C47F /* PersistentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41CD11DF0650B2F1494D3887FFB51C8 /* PersistentStore.swift */; };
+		C68C5E4A9659621B196098EFEC195B06 /* QiscusEventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A09E18093573BB411A21C3F14360DC /* QiscusEventManager.swift */; };
+		C976C6EED305B3CEA7599C4A6D883E07 /* QiscusConnectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E026824672E5CDCA9142E9F52D36595 /* QiscusConnectionDelegate.swift */; };
+		CA1C2FF3CC733302BE492DADEC5BB939 /* Pods-Simple Chat AppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3EF1BCC2856E2233144B52426BA2873 /* Pods-Simple Chat AppTests-dummy.m */; };
+		CB827192A859FF45062C54275308358A /* QiscusFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFD47C9D4B11CC2E3EECBBA3C8C213F /* QiscusFileManager.swift */; };
+		CE06CAC48CC80BD3075BB128A12A59DA /* QiscusWorkerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B60A50A43AAD531251A33BE69C7171C /* QiscusWorkerManager.swift */; };
+		CECFF47C05BDE9DF60F2CCB0EE33DF01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA644465D32AC73BD3446307C6BF80E4 /* Foundation.framework */; };
+		CED031A91062220350A1245AF34A2CB0 /* QiscusDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05283F51227ECFBDBA9D6D811F785F6 /* QiscusDatabase.swift */; };
+		CFAF6511A8499092F2EDCF1C7C912248 /* QiscusRealtime-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB0DB44B085BCA45D340A47ADAD339 /* QiscusRealtime-dummy.m */; };
+		D0E610AF38DB1B211FD813F0B9AD51BF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4475CE5F8B8B89965F77255A1DBE031 /* CFNetwork.framework */; };
+		D15BD695460074B2DED108551D3F60DE /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEEB026E74BEEF5DD7C496AC593BD36 /* Router.swift */; };
+		D3296EBCF4A8A61169E10914C213D6AE /* QiscusRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = A746E42A814E232D4B7F1656FA681A44 /* QiscusRoom.swift */; };
+		D49E19264FF42A60EA112CEFC1E81C54 /* Comment+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB126F42C85B29853975E04398EAE54D /* Comment+CoreDataProperties.swift */; };
+		D67B611414AD5515501A77BF8637F074 /* Pods-Simple Chat AppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 707BD941CBE746CEFD361C217E5C6C74 /* Pods-Simple Chat AppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8CE6A1ECDDD364C30F49B1A05C43652 /* QDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5963309D6D69E8F2AA93B982F3F0D137 /* QDate.swift */; };
+		DAA35BEBE1CFAA913B8C8C488124D5D5 /* EndpointComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C58BD082E790B2F273E1CFFD5E05D3 /* EndpointComment.swift */; };
+		DB4CE011514782A7C0D9572A80949B4E /* FrameUnsubscribe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512D626507FD4F8A8A7D813517BC4FFD /* FrameUnsubscribe.swift */; };
+		DCD46311889033B2064383816342BA64 /* Member+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E93AB2CD1E75DA50D80190DCC67422 /* Member+CoreDataProperties.swift */; };
+		DDF8C3792DC8F515F9AA3E4776F9D487 /* CocoaMQTT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1730FC8689E0CEBF65873D2447C4A8D0 /* CocoaMQTT-dummy.m */; };
+		DEBFD7482CA282C7F1C0F33D9B885DAF /* CocoaMQTTMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D4091522BA452E537A912D54B7770 /* CocoaMQTTMessage.swift */; };
+		E2E977D8473D6442AD1AD357165ED8EE /* CocoaMQTTSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CD7C50E4F31232CDDA665BCA988816 /* CocoaMQTTSocket.swift */; };
+		E31985CF168CEE62A328CF8422446F67 /* QiscusWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B816604D20B735DD0A6553DF945513 /* QiscusWorker.swift */; };
+		E87C75AC817D48F65D4A0B0C7B1FF115 /* QiscusConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B89A3590B50838D224116B6B56D9B29 /* QiscusConfig.swift */; };
+		F22FD023D4740B182DA03EF8DC6F7D36 /* QError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272B81FCF110E0B68D13D53CE5E680A4 /* QError.swift */; };
+		F2FBB8A209602CF41C09B8FFA5269FA0 /* CocoaMQTTReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5288859DD982587D8C8256DBA952FE /* CocoaMQTTReader.swift */; };
+		F6CA86FD78A68668154FDF3F0D2B41CC /* NetworkUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595B43D0FF038D2BAEFBB26231A7573 /* NetworkUpload.swift */; };
+		F86760FAA2A9BD4D4474FD0EB4D039DF /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C9595467739B30DF955EB953275FE /* UserModel.swift */; };
+		FC8019698A17ACBC2B4BB2DDD981D6ED /* Pods-Simple Chat App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7977A22DBBCDE1E9B3C07429479BA6 /* Pods-Simple Chat App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE2FD2A48D931C4A2DB98FB47B7DE308 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA644465D32AC73BD3446307C6BF80E4 /* Foundation.framework */; };
+		FE4603C4A9081E36E35292CD108364F5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CCCC8D31D0E17A9F06857D19C7187F8 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01D508573ED6F04C58645B72BC6CCBE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
+			remoteInfo = SwiftyJSON;
+		};
+		0C619FAB4F15A4E14105B6ADAE041C3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
+			remoteInfo = SwiftyJSON;
+		};
+		2EB5B4DBE151CFB60F96C57CD3ED3A85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83B7231CE2D94C92D372449B2D49C2E7;
+			remoteInfo = QiscusCore;
+		};
+		47BE58B75D76373596C8C8A3A7F2A761 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7B387DB3546CC03911F790DD19082FC;
+			remoteInfo = "QiscusCore-QiscusCore";
+		};
+		4A29AC6F9D5A6E25059024A02272F76D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBC6F3BFD24A258E7DC1256C31730ACB;
+			remoteInfo = QiscusRealtime;
+		};
+		55B9ADBB7DAD1E50487554F65BE46047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		61E5A8872FC3E1664E51CBA62BBA19CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74775E0C5D698264C06AFCEF134CA452;
+			remoteInfo = "Pods-Simple Chat App";
+		};
+		6396DAAFCF1C7223BFCE9317148D1BBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83B7231CE2D94C92D372449B2D49C2E7;
+			remoteInfo = QiscusCore;
+		};
+		8A7AE372B0747EB9FB0721C18A5CBFE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		8DD73963A5AFBF2BE3B05120C140D94E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBC6F3BFD24A258E7DC1256C31730ACB;
+			remoteInfo = QiscusRealtime;
+		};
+		AE38D5CE7EBEB7A8EE4DBBF0DEE1E37C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBC6F3BFD24A258E7DC1256C31730ACB;
+			remoteInfo = QiscusRealtime;
+		};
+		B1DE416BA7B51BD2199EDEFCEE419B80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EB168A830EFA6136FA93357D1F1511A;
+			remoteInfo = CocoaMQTT;
+		};
+		B2FC205AEA035B50672CE1804458BD04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EB168A830EFA6136FA93357D1F1511A;
+			remoteInfo = CocoaMQTT;
+		};
+		CE4BBBEBF62916CAA273A2ECD5E24328 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EB168A830EFA6136FA93357D1F1511A;
+			remoteInfo = CocoaMQTT;
+		};
+		D27CAC98DE0FDFDDED3508FB700224CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		F2B42919314D95B25D5C1F6668F85866 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
+			remoteInfo = SwiftyJSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		029DF5ED9C07A9C6D4E2605633F6A7D2 /* RoomModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoomModel.swift; path = Source/QiscusCore/Model/RoomModel.swift; sourceTree = "<group>"; };
+		0627055E075784E2FD656C73B632B69D /* CommentStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommentStorage.swift; path = Source/QiscusCore/Database/CommentStorage.swift; sourceTree = "<group>"; };
+		06CF25021882C307B27FB50116E1BD99 /* Pods-Simple Chat App-Simple Chat AppUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Simple Chat App-Simple Chat AppUITests"; path = Pods_Simple_Chat_App_Simple_Chat_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		079532D3678F97C14997CF7008382478 /* QiscusThread.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QiscusThread.swift; path = Source/QiscusCore/Util/QiscusThread.swift; sourceTree = "<group>"; };
+		08E519D5C6CDCAD368D904A72647F5E6 /* FramePubRel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FramePubRel.swift; path = Source/FramePubRel.swift; sourceTree = "<group>"; };
+		09946C430366891DAE91C526FC47C94D /* Pods-Simple Chat AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Simple Chat AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		09C950AE26C536EE800DAC0311B7364A /* QiscusCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QiscusCore.debug.xcconfig; sourceTree = "<group>"; };
+		0CCCC8D31D0E17A9F06857D19C7187F8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		0D51786E2D7AF50EEF755F37479C451D /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		0DEBF94C4CFD72718F5EA71788D32B78 /* QiscusRealtime.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QiscusRealtime.modulemap; sourceTree = "<group>"; };
+		0E89B65BE1C80E0BEAD0147C77875A77 /* CocoaAsyncSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.debug.xcconfig; sourceTree = "<group>"; };
+		114F0AACEAD083346D99879CD7D009A1 /* Pods-Simple Chat App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Simple Chat App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		119596D4B0248FEC0D71AEB7BC964B01 /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/QiscusCore/Network/Encoding/ParameterEncoder.swift; sourceTree = "<group>"; };
+		13048B73F1A91C027C8627183075FEC1 /* RoomStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoomStorage.swift; path = Source/QiscusCore/Database/RoomStorage.swift; sourceTree = "<group>"; };
+		15446F076DEBE3C5FB9E771D2A50EE2F /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON/SwiftyJSON.swift; sourceTree = "<group>"; };
+		1730FC8689E0CEBF65873D2447C4A8D0 /* CocoaMQTT-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaMQTT-dummy.m"; sourceTree = "<group>"; };
+		1810A854FA88AB6A9695EAB86D4A0405 /* Pods-Simple Chat App-Simple Chat AppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Simple Chat App-Simple Chat AppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		1B3D8CB29F43C5646537D2D977279282 /* RealtimeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RealtimeManager.swift; path = Source/QiscusCore/Realtime/RealtimeManager.swift; sourceTree = "<group>"; };
+		1BCBCDDCEEF505A2C641543E50A456B3 /* QiscusRealtime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QiscusRealtime.h; path = QiscusRealtime/QiscusRealtime.h; sourceTree = "<group>"; };
+		1C092DC3A19318EA0EF97EA57BD81B6F /* FrameDisconnect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameDisconnect.swift; path = Source/FrameDisconnect.swift; sourceTree = "<group>"; };
+		1F64A0AAE5526CC2E5E31C5696EF69C1 /* FramePingResp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FramePingResp.swift; path = Source/FramePingResp.swift; sourceTree = "<group>"; };
+		20690D29F8CB70AFD8F86E6762F5F179 /* QiscusRealtime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QiscusRealtime.swift; path = Source/QiscusRealtime/QiscusRealtime.swift; sourceTree = "<group>"; };
+		20DAE1C6858FFAFC2D29218D72986988 /* EndpointUser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndpointUser.swift; path = Source/QiscusCore/Network/Service/Endpoint/EndpointUser.swift; sourceTree = "<group>"; };
+		23ACF236A8CC7BB5806E17DFEB019CEB /* QiscusHeartBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QiscusHeartBeat.swift; path = Source/QiscusCore/Util/QiscusHeartBeat.swift; sourceTree = "<group>"; };
+		2415EF6D1AE229A2A2CBDAD2BF562373 /* CocoaMQTT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaMQTT.debug.xcconfig; sourceTree = "<group>"; };
+		2670BBAD18800E74BD0E29D4F6002EB3 /* QiscusCore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QiscusCore.swift; path = Source/QiscusCore/QiscusCore.swift; sourceTree = "<group>"; };
+		26B713298DB3F86D4D984BC435F06BB1 /* ConfigManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfigManager.swift; path = Source/QiscusCore/Storage/ConfigManager.swift; sourceTree = "<group>"; };
+		272B81FCF110E0B68D13D53CE5E680A4 /* QError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QError.swift; path = Source/QiscusCore/Model/QError.swift; sourceTree = "<group>"; };
+		286DDFFCB3DE0934A785237BC5C59D08 /* QiscusRealtime */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QiscusRealtime; path = QiscusRealtime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28B8DB02559F52C447089AC7B3E23FF4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2AD1FB2B7A99990B844802B6B701524A /* CocoaMQTT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CocoaMQTT.swift; path = Source/CocoaMQTT.swift; sourceTree = "<group>"; };
+		2BE575BDB5BF3B3C29F19960C117AF31 /* QiscusCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QiscusCore-umbrella.h"; sourceTree = "<group>"; };
+		2DDA87681E797C2C33569C7BBCF9E15D /* FramePingReq.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FramePingReq.swift; path = Source/FramePingReq.swift; sourceTree = "<group>"; };
+		2E23C67303ED972A8ED9B6218ECF7F0C /* SwiftyJSON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.release.xcconfig; sourceTree = "<group>"; };
+		2F74B2CC9F2B85117D8B7B541D93582C /* QiscusCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QiscusCore.h; path = QiscusCore/QiscusCore.h; sourceTree = "<group>"; };
+		301388F88417C965C3AE2CBD515823AD /* DownloadService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DownloadService.swift; path = Source/QiscusCore/Network/Service/DownloadService.swift; sourceTree = "<group>"; };
+		32EDB0208D03017CCD89B4E7C2FB4CBA /* Pods-Simple Chat App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Simple Chat App.debug.xcconfig"; sourceTree = "<group>"; };
+		35AC605785A2D729D131CCCEE0F44981 /* ResourceBundle-QiscusCore-QiscusCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-QiscusCore-QiscusCore-Info.plist"; sourceTree = "<group>"; };
+		35C5A583AFCDE949097F232A84C0328E /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
+		36430006E0F6BB774D037FF85F2C03F9 /* CocoaMQTTTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CocoaMQTTTypes.swift; path = Source/CocoaMQTTTypes.swift; sourceTree = "<group>"; };
+		3680DE66EF28C518F5387748D39BFC64 /* Pods-Simple Chat AppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Simple Chat AppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3763239769C60F28CC08A72F75BDC2A9 /* FramePubRec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FramePubRec.swift; path = Source/FramePubRec.swift; sourceTree = "<group>"; };
+		37FE2F19D39E700A4794848DD9759DE4 /* CocoaAsyncSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.release.xcconfig; sourceTree = "<group>"; };
+		39C8E30A4C8EB20E3BD81484D1040760 /* CocoaMQTTStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CocoaMQTTStorage.swift; path = Source/CocoaMQTTStorage.swift; sourceTree = "<group>"; };
+		3B89A3590B50838D224116B6B56D9B29 /* QiscusConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QiscusConfig.swift; path = Source/QiscusCore/Model/Config/QiscusConfig.swift; sourceTree = "<group>"; };
+		3E5288859DD982587D8C8256DBA952FE /* CocoaMQTTReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CocoaMQTTReader.swift; path = Source/CocoaMQTTReader.swift; sourceTree = "<group>"; };
+		3F909C45A9E2E53A79474F6B2A1C6FD8 /* ApiResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApiResponse.swift; path = Source/QiscusCore/Model/Base/ApiResponse.swift; sourceTree = "<group>"; };
+		3FFB0DB44B085BCA45D340A47ADAD339 /* QiscusRealtime-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QiscusRealtime-dummy.m"; sourceTree = "<group>"; };
+		4291FF344CE7DFD18501F68CA5D85D26 /* Pods-Simple Chat App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Simple Chat App-frameworks.sh"; sourceTree = "<group>"; };
+		4340749A600A1EA8687D8CBC9F6E4208 /* QiscusRealtime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QiscusRealtime.debug.xcconfig; sourceTree = "<group>"; };
+		447D42B93B88AC48393148EEC71455BC /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		47C7E7A66B2D4406BC3311EAE9CFB8F8 /* QiscusRealtime-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QiscusRealtime-Info.plist"; sourceTree = "<group>"; };
+		4898808F75DCC6EA0282DE20356EC4D7 /* CocoaMQTT-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaMQTT-umbrella.h"; sourceTree = "<group>"; };
+		48B345321C834F56C2AEC3DD7E4F3311 /* CocoaMQTTTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CocoaMQTTTimer.swift; path = Source/CocoaMQTTTimer.swift; sourceTree = "<group>"; };
+		4AEE95874ABF6CDBFA6D5A2DE70D7EE5 /* RoomEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoomEvent.swift; path = Source/QiscusCore/Model/RoomEvent.swift; sourceTree = "<group>"; };
+		4CEA6E74638579446D7B5355720D5238 /* QiscusDatabaseManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QiscusDatabaseManager.swift; path = Source/QiscusCore/Database/QiscusDatabaseManager.swift; sourceTree = "<group>"; };
+		4DABA4E2AC2DF78C175F2082E597B187 /* QiscusCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QiscusCore-prefix.pch"; sourceTree = "<group>"; };
+		508FEBAF05B95D9B27339825990DD652 /* Pods-Simple Chat App-Simple Chat AppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Simple Chat App-Simple Chat AppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		50EB9E477D8837B73E899F63BC166CC4 /* Pods-Simple Chat App-Simple Chat AppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Simple Chat App-Simple Chat AppUITests-umbrella.h"; sourceTree = "<group>"; };
+		512D626507FD4F8A8A7D813517BC4FFD /* FrameUnsubscribe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameUnsubscribe.swift; path = Source/FrameUnsubscribe.swift; sourceTree = "<group>"; };
+		52CD7C50E4F31232CDDA665BCA988816 /* CocoaMQTTSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CocoaMQTTSocket.swift; path = Source/CocoaMQTTSocket.swift; sourceTree = "<group>"; };
+		5332AB8E71E30ECF60E6F6C17990B910 /* Pods-Simple Chat AppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Simple Chat AppTests-Info.plist"; sourceTree = "<group>"; };
+		54A1B20AE0DF8EA8D67D334A0CAA4CE2 /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
+		5963309D6D69E8F2AA93B982F3F0D137 /* QDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QDate.swift; path = Source/QiscusRealtime/Extension/QDate.swift; sourceTree = "<group>"; };
+		599F11F317CF890B1093A102D5F851AF /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		5A0701169D42530F3A20CB8B919E1FF7 /* MqttClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MqttClient.swift; path = Source/QiscusRealtime/mqtt/MqttClient.swift; sourceTree = "<group>"; };
+		5AF1865975318E4B7D81045CA9105CD8 /* Pods-Simple Chat App-Simple Chat AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Simple Chat App-Simple Chat AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5FF3758356BB8A8E35953A0F6772C9DD /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/QiscusCore/Network/Encoding/ParameterEncoding.swift; sourceTree = "<group>"; };
+		63E3DBD5612123C9EF55B4A4C381C47D /* QiscusRealtime-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QiscusRealtime-prefix.pch"; sourceTree = "<group>"; };
+		64576F20AA27C7EB4A64182BB440D47D /* Data+Json.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Json.swift"; path = "Source/QiscusCore/Util/Data+Json.swift"; sourceTree = "<group>"; };
+		64A5B937D71BC28DE1A943FB2BD0553F /* Qiscus.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = Qiscus.xcdatamodel; sourceTree = "<group>"; };
+		65AB27E401A758C472796BC3EA1A41E7 /* Comment+CoreDataClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Comment+CoreDataClass.swift"; path = "Source/QiscusCore/Database/QiscusDatabase/Model/Comment+CoreDataClass.swift"; sourceTree = "<group>"; };
+		665740E50830132EC07DCC1F4180975C /* QiscusCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QiscusCore-dummy.m"; sourceTree = "<group>"; };
+		666C4B9E7B8255AA515A45FE6DC2E231 /* CocoaMQTT-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaMQTT-Info.plist"; sourceTree = "<group>"; };
+		6783EE30C8E9435A7CA2B5A4D9470609 /* HTTPUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPUtil.swift; path = Source/QiscusCore/Network/Service/HTTPUtil.swift; sourceTree = "<group>"; };
+		68797F8F853EEE924F29538C34B64C08 /* QiscusChannels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QiscusChannels.swift; path = Source/QiscusCore/Model/QiscusChannels.swift; sourceTree = "<group>"; };
+		6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D9C327A572B8C7A97183C86F3CB8D9E /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		6E51AAE91D21DC0DD9567276E5E699E8 /* FramePubAck.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FramePubAck.swift; path = Source/FramePubAck.swift; sourceTree = "<group>"; };
+		6E7977A22DBBCDE1E9B3C07429479BA6 /* Pods-Simple Chat App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Simple Chat App-umbrella.h"; sourceTree = "<group>"; };
+		6E8A9186F99A5A3CAABCB992A4DC7A5C /* QiscusComment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QiscusComment.swift; path = Source/QiscusCore/QiscusComment.swift; sourceTree = "<group>"; };
+		6E9ED0F44A989EB882A05AD4927538F7 /* FrameConnect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameConnect.swift; path = Source/FrameConnect.swift; sourceTree = "<group>"; };
+		6F83270B4D1CBA8B888E4EB7916D7DEA /* QiscusStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QiscusStorage.swift; path = Source/QiscusCore/Storage/QiscusStorage.swift; sourceTree = "<group>"; };
+		7017D11B3794514CD0E4378C1F315FAB /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		704C4803BAC52780B567FD36D9F1D8BE /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		707BD941CBE746CEFD361C217E5C6C74 /* Pods-Simple Chat AppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Simple Chat AppTests-umbrella.h"; sourceTree = "<group>"; };
+		70A6B1D3217E6E026F1AB9AD10EAE91C /* Pods-Simple Chat AppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Simple Chat AppTests"; path = Pods_Simple_Chat_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		748DCFB7EAD7805E35CE43D3A3692D08 /* Pods-Simple Chat AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Simple Chat AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7972DA410A3834242E941DABAB9D80B2 /* QRLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRLogger.swift; path = Source/QiscusRealtime/QRLogger.swift; sourceTree = "<group>"; };
+		7B20C839F25462E6B91DDDC9917679AA /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		7C3B02CC0F79FC69EB196358659971D2 /* Member+CoreDataClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Member+CoreDataClass.swift"; path = "Source/QiscusCore/Database/QiscusDatabase/Model/Member+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7D550BACACAFD6ADA5CA0BA060A10215 /* Endpoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Endpoint.swift; path = Source/QiscusCore/Network/Service/Endpoint.swift; sourceTree = "<group>"; };
+		7DEEB026E74BEEF5DD7C496AC593BD36 /* Router.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Router.swift; path = Source/QiscusCore/Network/Service/Router.swift; sourceTree = "<group>"; };
+		7E4BE5E56BF0AA939A9F689F6C71A7D5 /* Pods-Simple Chat App */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Simple Chat App"; path = Pods_Simple_Chat_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8021D14D7EFA277C794234ABF42CCB0A /* CocoaMQTT.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaMQTT.modulemap; sourceTree = "<group>"; };
+		8257279ACB6E86928D374E065A0E17FE /* FramePubComp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FramePubComp.swift; path = Source/FramePubComp.swift; sourceTree = "<group>"; };
+		84B0BD83128FA2DE12F0A98CD65592F6 /* QiscusCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QiscusCore.release.xcconfig; sourceTree = "<group>"; };
+		8595B43D0FF038D2BAEFBB26231A7573 /* NetworkUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkUpload.swift; path = Source/QiscusCore/Network/NetworkUpload.swift; sourceTree = "<group>"; };
+		8817B5D2B2257538C955D97EAFE3EFF3 /* QiscusRealtimeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QiscusRealtimeManager.swift; path = Source/QiscusRealtime/QiscusRealtimeManager.swift; sourceTree = "<group>"; };
+		88B816604D20B735DD0A6553DF945513 /* QiscusWorker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QiscusWorker.swift; path = Source/QiscusCore/Util/QiscusWorker.swift; sourceTree = "<group>"; };
+		8B60A50A43AAD531251A33BE69C7171C /* QiscusWorkerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QiscusWorkerManager.swift; path = Source/QiscusCore/QiscusWorkerManager.swift; sourceTree = "<group>"; };
+		8DB98C0200BFFAFA1FD49E0EB12EB325 /* QiscusRealtime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QiscusRealtime.release.xcconfig; sourceTree = "<group>"; };
+		90D0AE4062AEFB88BE2B6BDD9D68C02F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		9110D9767C85EFD12D2F09DECF37516F /* Pods-Simple Chat App-Simple Chat AppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Simple Chat App-Simple Chat AppUITests-dummy.m"; sourceTree = "<group>"; };
+		96C667BA185C0D269DFD84DEE44E0AAA /* MemberDatabase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemberDatabase.swift; path = Source/QiscusCore/Database/MemberDatabase.swift; sourceTree = "<group>"; };
+		973F7F230E1A14D2EE7D1EA4EA017D59 /* QiscusCore-QiscusCore */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "QiscusCore-QiscusCore"; path = QiscusCore.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		99BB7CBB7EF7D081FF120107A3D7C62D /* Pods-Simple Chat App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Simple Chat App-Info.plist"; sourceTree = "<group>"; };
+		99D720FDE17C05B7903F46BCA1996995 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		99D7DF353B53613EC0456F30C5A63CF1 /* CommentInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommentInfo.swift; path = Source/QiscusCore/Model/CommentInfo.swift; sourceTree = "<group>"; };
+		9A2D4091522BA452E537A912D54B7770 /* CocoaMQTTMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CocoaMQTTMessage.swift; path = Source/CocoaMQTTMessage.swift; sourceTree = "<group>"; };
+		9B7E47A9F6D2F52354CCE4E92D6AC22D /* Pods-Simple Chat App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Simple Chat App-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D653AC4CDE5BADC13B23872A5D165F7 /* Pods-Simple Chat App-Simple Chat AppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Simple Chat App-Simple Chat AppUITests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E026824672E5CDCA9142E9F52D36595 /* QiscusConnectionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QiscusConnectionDelegate.swift; path = Source/QiscusCore/Protocol/QiscusConnectionDelegate.swift; sourceTree = "<group>"; };
+		9E421A144DF7CDB51F374517CE1660D1 /* UIDeviceInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIDeviceInfo.swift; path = Source/QiscusCore/Extension/UIDeviceInfo.swift; sourceTree = "<group>"; };
+		A0B7E019C910EC8DB88DF0FD521071A8 /* NetworkManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = Source/QiscusCore/Network/NetworkManager.swift; sourceTree = "<group>"; };
+		A1517F812625EA29195EAF30826C6967 /* FileModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileModel.swift; path = Source/QiscusCore/Model/FileModel.swift; sourceTree = "<group>"; };
+		A34C9595467739B30DF955EB953275FE /* UserModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserModel.swift; path = Source/QiscusCore/Model/UserModel.swift; sourceTree = "<group>"; };
+		A409AC3826BA7385908D5005B015595D /* CocoaMQTTDeliver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CocoaMQTTDeliver.swift; path = Source/CocoaMQTTDeliver.swift; sourceTree = "<group>"; };
+		A452308EDB72401F6151F92BD3B2FCE0 /* QiscusCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QiscusCore.modulemap; sourceTree = "<group>"; };
+		A54990FDE6018941AFEA2DC4359F1FA0 /* CocoaMQTT-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaMQTT-prefix.pch"; sourceTree = "<group>"; };
+		A746E42A814E232D4B7F1656FA681A44 /* QiscusRoom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QiscusRoom.swift; path = Source/QiscusCore/QiscusRoom.swift; sourceTree = "<group>"; };
+		A93EE3336F77464EF61766A699A902A8 /* RealtimeConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RealtimeConfig.swift; path = Source/QiscusRealtime/RealtimeConfig.swift; sourceTree = "<group>"; };
+		AA79C27984F38D3A1E40791C5C8440A7 /* Pods-Simple Chat App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Simple Chat App.release.xcconfig"; sourceTree = "<group>"; };
+		AB11848A7AE274FD5E83C283248B3C2F /* FramePublish.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FramePublish.swift; path = Source/FramePublish.swift; sourceTree = "<group>"; };
+		B1CE1A13649055AD6D6E82A59E333329 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		B277B4FB158C5E53B3060A78C29CAA80 /* Pods-Simple Chat AppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Simple Chat AppTests.modulemap"; sourceTree = "<group>"; };
+		B41CD11DF0650B2F1494D3887FFB51C8 /* PersistentStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PersistentStore.swift; path = Source/QiscusCore/Database/QiscusDatabase/PersistentStore.swift; sourceTree = "<group>"; };
+		B42F15F861B2DC1AF190D4C6282830DE /* CocoaMQTTLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CocoaMQTTLogger.swift; path = Source/CocoaMQTTLogger.swift; sourceTree = "<group>"; };
+		B56354F727C63379F1A5EF62A8859642 /* Pods-Simple Chat App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Simple Chat App-dummy.m"; sourceTree = "<group>"; };
+		B6C58BD082E790B2F273E1CFFD5E05D3 /* EndpointComment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndpointComment.swift; path = Source/QiscusCore/Network/Service/Endpoint/EndpointComment.swift; sourceTree = "<group>"; };
+		B71AAF788DFCD19B7120E7862E53FA74 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		BB126F42C85B29853975E04398EAE54D /* Comment+CoreDataProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Comment+CoreDataProperties.swift"; path = "Source/QiscusCore/Database/QiscusDatabase/Model/Comment+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BBA88B4F9DD96BE1C062F5CD15EC394E /* GenericModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericModel.swift; path = Source/QiscusCore/Model/GenericModel.swift; sourceTree = "<group>"; };
+		BD375C426B7DA9D48B24E80D5196A381 /* FrameSubscribe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameSubscribe.swift; path = Source/FrameSubscribe.swift; sourceTree = "<group>"; };
+		BDADD0F1A0D6FE6B1844DB7450AC78AE /* CocoaAsyncSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaAsyncSocket-Info.plist"; sourceTree = "<group>"; };
+		BDE8968F519E9554299A0C1A28D52428 /* QiscusCore */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QiscusCore; path = QiscusCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C176B81F1F6C95C3838A4BC93936532A /* LBModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBModel.swift; path = Source/QiscusCore/Model/LBModel.swift; sourceTree = "<group>"; };
+		C37E05F566C3D8DA4D8609BE4C27DCF7 /* QiscusCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QiscusCore-Info.plist"; sourceTree = "<group>"; };
+		C4A09E18093573BB411A21C3F14360DC /* QiscusEventManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QiscusEventManager.swift; path = Source/QiscusCore/QiscusEventManager.swift; sourceTree = "<group>"; };
+		C4F65CF4256F8B8F47A83635E7052F8A /* AppConfigModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppConfigModel.swift; path = Source/QiscusCore/Model/AppConfigModel.swift; sourceTree = "<group>"; };
+		C6A1A3B7B5B8554F65B8948CAC8E13BE /* Pods-Simple Chat AppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Simple Chat AppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C6AC34CDBD7092D01AB4FB8A3C25F541 /* NetworkRoom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkRoom.swift; path = Source/QiscusCore/Network/NetworkRoom.swift; sourceTree = "<group>"; };
+		CF66C8F3CFCD3099C8BB3EF39FFC22C2 /* Frame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Frame.swift; path = Source/Frame.swift; sourceTree = "<group>"; };
+		D05283F51227ECFBDBA9D6D811F785F6 /* QiscusDatabase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QiscusDatabase.swift; path = Source/QiscusCore/Database/QiscusDatabase/QiscusDatabase.swift; sourceTree = "<group>"; };
+		D1FE3B4534B58A7E9F5A2EECD130497B /* QiscusSyncEventInterval.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QiscusSyncEventInterval.swift; path = Source/QiscusCore/Util/QiscusSyncEventInterval.swift; sourceTree = "<group>"; };
+		D3B49A5B6A80BEF3E9445551F64D9011 /* CommentModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommentModel.swift; path = Source/QiscusCore/Model/CommentModel.swift; sourceTree = "<group>"; };
+		D4475CE5F8B8B89965F77255A1DBE031 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		D5B5564EDD7E549ED331FA36E08F3D55 /* Protocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protocol.swift; path = Source/QiscusRealtime/Protocol.swift; sourceTree = "<group>"; };
+		D75A8521D7DA515A0CE97531514585D6 /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
+		D7C30394AE178CD193BFF8A79E5DE32B /* NonceModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NonceModel.swift; path = Source/QiscusCore/Model/NonceModel.swift; sourceTree = "<group>"; };
+		DA1C884E77BB83996E77D40EF03EF166 /* Pods-Simple Chat App-Simple Chat AppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Simple Chat App-Simple Chat AppUITests-Info.plist"; sourceTree = "<group>"; };
+		DCF90746E9A076F94B2F0F896C7651D7 /* Room+CoreDataClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Room+CoreDataClass.swift"; path = "Source/QiscusCore/Database/QiscusDatabase/Model/Room+CoreDataClass.swift"; sourceTree = "<group>"; };
+		DF212EF55A1800E42DA62BA1330F0346 /* QiscusReachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QiscusReachability.swift; path = Source/QiscusCore/Util/QiscusReachability.swift; sourceTree = "<group>"; };
+		DF3F98D9C4A0C50A6FCFAC27DF4BC01E /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		E00545881DFCBADC58A816B37554A264 /* QiscusLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QiscusLogger.swift; path = Source/QiscusCore/Util/QiscusLogger.swift; sourceTree = "<group>"; };
+		E0C1819CE6345BA8B5EDE7E7EE4C6B80 /* Model.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Model.swift; path = Source/QiscusRealtime/Model.swift; sourceTree = "<group>"; };
+		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E32EC9134D50FC143D33D2FBBB903593 /* QiscusRealtime-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QiscusRealtime-umbrella.h"; sourceTree = "<group>"; };
+		E5EA761299F21920BEC6EA8614054F12 /* NetworkMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkMessage.swift; path = Source/QiscusCore/Network/NetworkMessage.swift; sourceTree = "<group>"; };
+		E683181D53BE2E6E37532337BD01E578 /* FrameUnsubAck.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameUnsubAck.swift; path = Source/FrameUnsubAck.swift; sourceTree = "<group>"; };
+		E6A4E1627379D6540B81A470C575D716 /* CocoaMQTT */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaMQTT; path = CocoaMQTT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E859797301480E003B70ABE5A2BC30E7 /* Pods-Simple Chat App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Simple Chat App.modulemap"; sourceTree = "<group>"; };
+		E85F9C17BB55D23EA480A0376432EBAA /* EndpointRoom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndpointRoom.swift; path = Source/QiscusCore/Network/Service/Endpoint/EndpointRoom.swift; sourceTree = "<group>"; };
+		E94DBD4FF01BCC631811CA8AB30C8EAE /* SwiftyJSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.debug.xcconfig; sourceTree = "<group>"; };
+		EA5380B8F2552BE491665C9633FA4CFC /* QUserPresence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QUserPresence.swift; path = Source/QiscusCore/Model/QUserPresence.swift; sourceTree = "<group>"; };
+		EA84CCCF86210EFDE9936AC9705F07F6 /* FrameConnAck.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameConnAck.swift; path = Source/FrameConnAck.swift; sourceTree = "<group>"; };
+		ECFD47C9D4B11CC2E3EECBBA3C8C213F /* QiscusFileManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QiscusFileManager.swift; path = Source/QiscusCore/Storage/QiscusFileManager.swift; sourceTree = "<group>"; };
+		EDC279C5916FE8155506D33333D6F5E4 /* FrameSubAck.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameSubAck.swift; path = Source/FrameSubAck.swift; sourceTree = "<group>"; };
+		EDE794DD10FC7085499A1AB52D2E8A91 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		EFB7630AE4C0AF6F0447F36651F05E56 /* Pods-Simple Chat App-Simple Chat AppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Simple Chat App-Simple Chat AppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EFBDC094BF54BB8E1D2DA38BF7165BCA /* ActiveRecord.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActiveRecord.swift; path = Source/QiscusCore/Database/QiscusDatabase/Model/ActiveRecord.swift; sourceTree = "<group>"; };
+		F2E93AB2CD1E75DA50D80190DCC67422 /* Member+CoreDataProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Member+CoreDataProperties.swift"; path = "Source/QiscusCore/Database/QiscusDatabase/Model/Member+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F3EF1BCC2856E2233144B52426BA2873 /* Pods-Simple Chat AppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Simple Chat AppTests-dummy.m"; sourceTree = "<group>"; };
+		F4FAB23133983FB32FAB72326167EFCD /* Room+CoreDataProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Room+CoreDataProperties.swift"; path = "Source/QiscusCore/Database/QiscusDatabase/Model/Room+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FA644465D32AC73BD3446307C6BF80E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FC1A60D9CAEACAEA56920971520F17E2 /* CocoaMQTT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaMQTT.release.xcconfig; sourceTree = "<group>"; };
+		FE9DF1F20A239AEFC71EF667AAE68496 /* Pods-Simple Chat App-Simple Chat AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Simple Chat App-Simple Chat AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E352BB1B8E8E16D49879E8DCE9F23B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E610AF38DB1B211FD813F0B9AD51BF /* CFNetwork.framework in Frameworks */,
+				CECFF47C05BDE9DF60F2CCB0EE33DF01 /* Foundation.framework in Frameworks */,
+				0F9861189481C61905A67887B5F17CC8 /* MobileCoreServices.framework in Frameworks */,
+				FE4603C4A9081E36E35292CD108364F5 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CD7789F2C043E754F52571A05D6DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2FD2A48D931C4A2DB98FB47B7DE308 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCBAA86761921662D66BE083F15EDF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AEA13BBDD8C8ED66109574612A098E6 /* CFNetwork.framework in Frameworks */,
+				5DA625B215DDC106AF59B7E7AFF7A22F /* CoreData.framework in Frameworks */,
+				B2D89831063B926E28EBF0AC40510535 /* Foundation.framework in Frameworks */,
+				88633994CA2CFBFC6804CF62AFE61D83 /* MobileCoreServices.framework in Frameworks */,
+				6B99886475E4E27B8AE0E8FFF8E80A8D /* QuartzCore.framework in Frameworks */,
+				B71E8B492E55FE3BB53559A5429450D0 /* Security.framework in Frameworks */,
+				B98B1DE3DD530748C8C9ECC1BDC0A1F8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56209A7B84C58283D03C4B57F34AB070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B975EBEA22E94C7FA55A05323FEF864 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672F78584AC4C8FE63E9C4DE72A3D07A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8720504F1FF6A83A2B798C2F4F553A94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6954653374E47DE4EA374DF2D4597AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37DD023A3721BF2E9A52660FA8A3C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A88215D5655DDBF56DEAA41CC8D8DA /* CFNetwork.framework in Frameworks */,
+				26F87A3DC73299D66231DFE835E9C13D /* Foundation.framework in Frameworks */,
+				8861DA09219E12C0A1DBA07EB1CEB94A /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D7F7F079E54C6E5A41DFC2B8C3D524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1972BAFA5D054197CF774B51E3DF44A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0824C6E88947F87CA8E5819E266ECBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C5A194618E775B80A1CE573E734927 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040316EC0B6A1E9C4923A767DC08EA88 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				15446F076DEBE3C5FB9E771D2A50EE2F /* SwiftyJSON.swift */,
+				BA2ADFD358B69A8EC9810295063ED4ED /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		0AE528C844C7970EFE666CD69AA118BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFE10604D41B6454E5D707277691D8A0 /* CocoaAsyncSocket */,
+				D25193D58EC2CC7FB122E1080565096F /* CocoaMQTT */,
+				1241EF65D159D6055422685BAB8C5207 /* QiscusCore */,
+				41FEF092A8C47796415D5E11BF890C47 /* QiscusRealtime */,
+				040316EC0B6A1E9C4923A767DC08EA88 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1135ED3AFA0F6B5F47EDD01FA9C5CFF0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2AD1FB2B7A99990B844802B6B701524A /* CocoaMQTT.swift */,
+				A409AC3826BA7385908D5005B015595D /* CocoaMQTTDeliver.swift */,
+				B42F15F861B2DC1AF190D4C6282830DE /* CocoaMQTTLogger.swift */,
+				9A2D4091522BA452E537A912D54B7770 /* CocoaMQTTMessage.swift */,
+				3E5288859DD982587D8C8256DBA952FE /* CocoaMQTTReader.swift */,
+				52CD7C50E4F31232CDDA665BCA988816 /* CocoaMQTTSocket.swift */,
+				39C8E30A4C8EB20E3BD81484D1040760 /* CocoaMQTTStorage.swift */,
+				48B345321C834F56C2AEC3DD7E4F3311 /* CocoaMQTTTimer.swift */,
+				36430006E0F6BB774D037FF85F2C03F9 /* CocoaMQTTTypes.swift */,
+				CF66C8F3CFCD3099C8BB3EF39FFC22C2 /* Frame.swift */,
+				EA84CCCF86210EFDE9936AC9705F07F6 /* FrameConnAck.swift */,
+				6E9ED0F44A989EB882A05AD4927538F7 /* FrameConnect.swift */,
+				1C092DC3A19318EA0EF97EA57BD81B6F /* FrameDisconnect.swift */,
+				2DDA87681E797C2C33569C7BBCF9E15D /* FramePingReq.swift */,
+				1F64A0AAE5526CC2E5E31C5696EF69C1 /* FramePingResp.swift */,
+				6E51AAE91D21DC0DD9567276E5E699E8 /* FramePubAck.swift */,
+				8257279ACB6E86928D374E065A0E17FE /* FramePubComp.swift */,
+				AB11848A7AE274FD5E83C283248B3C2F /* FramePublish.swift */,
+				3763239769C60F28CC08A72F75BDC2A9 /* FramePubRec.swift */,
+				08E519D5C6CDCAD368D904A72647F5E6 /* FramePubRel.swift */,
+				EDC279C5916FE8155506D33333D6F5E4 /* FrameSubAck.swift */,
+				BD375C426B7DA9D48B24E80D5196A381 /* FrameSubscribe.swift */,
+				E683181D53BE2E6E37532337BD01E578 /* FrameUnsubAck.swift */,
+				512D626507FD4F8A8A7D813517BC4FFD /* FrameUnsubscribe.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		1241EF65D159D6055422685BAB8C5207 /* QiscusCore */ = {
+			isa = PBXGroup;
+			children = (
+				EFBDC094BF54BB8E1D2DA38BF7165BCA /* ActiveRecord.swift */,
+				3F909C45A9E2E53A79474F6B2A1C6FD8 /* ApiResponse.swift */,
+				C4F65CF4256F8B8F47A83635E7052F8A /* AppConfigModel.swift */,
+				65AB27E401A758C472796BC3EA1A41E7 /* Comment+CoreDataClass.swift */,
+				BB126F42C85B29853975E04398EAE54D /* Comment+CoreDataProperties.swift */,
+				99D7DF353B53613EC0456F30C5A63CF1 /* CommentInfo.swift */,
+				D3B49A5B6A80BEF3E9445551F64D9011 /* CommentModel.swift */,
+				0627055E075784E2FD656C73B632B69D /* CommentStorage.swift */,
+				26B713298DB3F86D4D984BC435F06BB1 /* ConfigManager.swift */,
+				64576F20AA27C7EB4A64182BB440D47D /* Data+Json.swift */,
+				301388F88417C965C3AE2CBD515823AD /* DownloadService.swift */,
+				7D550BACACAFD6ADA5CA0BA060A10215 /* Endpoint.swift */,
+				B6C58BD082E790B2F273E1CFFD5E05D3 /* EndpointComment.swift */,
+				E85F9C17BB55D23EA480A0376432EBAA /* EndpointRoom.swift */,
+				20DAE1C6858FFAFC2D29218D72986988 /* EndpointUser.swift */,
+				A1517F812625EA29195EAF30826C6967 /* FileModel.swift */,
+				BBA88B4F9DD96BE1C062F5CD15EC394E /* GenericModel.swift */,
+				6783EE30C8E9435A7CA2B5A4D9470609 /* HTTPUtil.swift */,
+				C176B81F1F6C95C3838A4BC93936532A /* LBModel.swift */,
+				7C3B02CC0F79FC69EB196358659971D2 /* Member+CoreDataClass.swift */,
+				F2E93AB2CD1E75DA50D80190DCC67422 /* Member+CoreDataProperties.swift */,
+				96C667BA185C0D269DFD84DEE44E0AAA /* MemberDatabase.swift */,
+				A0B7E019C910EC8DB88DF0FD521071A8 /* NetworkManager.swift */,
+				E5EA761299F21920BEC6EA8614054F12 /* NetworkMessage.swift */,
+				C6AC34CDBD7092D01AB4FB8A3C25F541 /* NetworkRoom.swift */,
+				8595B43D0FF038D2BAEFBB26231A7573 /* NetworkUpload.swift */,
+				D7C30394AE178CD193BFF8A79E5DE32B /* NonceModel.swift */,
+				119596D4B0248FEC0D71AEB7BC964B01 /* ParameterEncoder.swift */,
+				5FF3758356BB8A8E35953A0F6772C9DD /* ParameterEncoding.swift */,
+				B41CD11DF0650B2F1494D3887FFB51C8 /* PersistentStore.swift */,
+				272B81FCF110E0B68D13D53CE5E680A4 /* QError.swift */,
+				68797F8F853EEE924F29538C34B64C08 /* QiscusChannels.swift */,
+				6E8A9186F99A5A3CAABCB992A4DC7A5C /* QiscusComment.swift */,
+				3B89A3590B50838D224116B6B56D9B29 /* QiscusConfig.swift */,
+				9E026824672E5CDCA9142E9F52D36595 /* QiscusConnectionDelegate.swift */,
+				2F74B2CC9F2B85117D8B7B541D93582C /* QiscusCore.h */,
+				2670BBAD18800E74BD0E29D4F6002EB3 /* QiscusCore.swift */,
+				D05283F51227ECFBDBA9D6D811F785F6 /* QiscusDatabase.swift */,
+				4CEA6E74638579446D7B5355720D5238 /* QiscusDatabaseManager.swift */,
+				C4A09E18093573BB411A21C3F14360DC /* QiscusEventManager.swift */,
+				ECFD47C9D4B11CC2E3EECBBA3C8C213F /* QiscusFileManager.swift */,
+				23ACF236A8CC7BB5806E17DFEB019CEB /* QiscusHeartBeat.swift */,
+				E00545881DFCBADC58A816B37554A264 /* QiscusLogger.swift */,
+				DF212EF55A1800E42DA62BA1330F0346 /* QiscusReachability.swift */,
+				A746E42A814E232D4B7F1656FA681A44 /* QiscusRoom.swift */,
+				6F83270B4D1CBA8B888E4EB7916D7DEA /* QiscusStorage.swift */,
+				D1FE3B4534B58A7E9F5A2EECD130497B /* QiscusSyncEventInterval.swift */,
+				079532D3678F97C14997CF7008382478 /* QiscusThread.swift */,
+				88B816604D20B735DD0A6553DF945513 /* QiscusWorker.swift */,
+				8B60A50A43AAD531251A33BE69C7171C /* QiscusWorkerManager.swift */,
+				EA5380B8F2552BE491665C9633FA4CFC /* QUserPresence.swift */,
+				1B3D8CB29F43C5646537D2D977279282 /* RealtimeManager.swift */,
+				DCF90746E9A076F94B2F0F896C7651D7 /* Room+CoreDataClass.swift */,
+				F4FAB23133983FB32FAB72326167EFCD /* Room+CoreDataProperties.swift */,
+				4AEE95874ABF6CDBFA6D5A2DE70D7EE5 /* RoomEvent.swift */,
+				029DF5ED9C07A9C6D4E2605633F6A7D2 /* RoomModel.swift */,
+				13048B73F1A91C027C8627183075FEC1 /* RoomStorage.swift */,
+				7DEEB026E74BEEF5DD7C496AC593BD36 /* Router.swift */,
+				9E421A144DF7CDB51F374517CE1660D1 /* UIDeviceInfo.swift */,
+				A34C9595467739B30DF955EB953275FE /* UserModel.swift */,
+				F4B20B21FF77E186643113D5E541A930 /* Resources */,
+				F9B8DA24AA7A01FFC19223E17B6383C9 /* Support Files */,
+			);
+			name = QiscusCore;
+			path = QiscusCore;
+			sourceTree = "<group>";
+		};
+		41FEF092A8C47796415D5E11BF890C47 /* QiscusRealtime */ = {
+			isa = PBXGroup;
+			children = (
+				E0C1819CE6345BA8B5EDE7E7EE4C6B80 /* Model.swift */,
+				5A0701169D42530F3A20CB8B919E1FF7 /* MqttClient.swift */,
+				D5B5564EDD7E549ED331FA36E08F3D55 /* Protocol.swift */,
+				5963309D6D69E8F2AA93B982F3F0D137 /* QDate.swift */,
+				1BCBCDDCEEF505A2C641543E50A456B3 /* QiscusRealtime.h */,
+				20690D29F8CB70AFD8F86E6762F5F179 /* QiscusRealtime.swift */,
+				8817B5D2B2257538C955D97EAFE3EFF3 /* QiscusRealtimeManager.swift */,
+				7972DA410A3834242E941DABAB9D80B2 /* QRLogger.swift */,
+				A93EE3336F77464EF61766A699A902A8 /* RealtimeConfig.swift */,
+				8E7B4ABFCB5BE4A5088A44C9A2E914A0 /* Support Files */,
+			);
+			name = QiscusRealtime;
+			path = QiscusRealtime;
+			sourceTree = "<group>";
+		};
+		7264674FADD0BA7160176D884BB7ABE1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFDECDFEB185BB48981EE5BE646FDC5A /* Pods-Simple Chat App */,
+				D179FFE61B4B98BA492641127645B1A6 /* Pods-Simple Chat App-Simple Chat AppUITests */,
+				93380AB3C29A342F5D45D15DA6DCDA37 /* Pods-Simple Chat AppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8275CCB4E8732497B1021FCBC240F3C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDCB8C362E13A973F5AF7828BBFFDDA0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8680F34C605BBE8E28421C5AFE1E998A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8021D14D7EFA277C794234ABF42CCB0A /* CocoaMQTT.modulemap */,
+				1730FC8689E0CEBF65873D2447C4A8D0 /* CocoaMQTT-dummy.m */,
+				666C4B9E7B8255AA515A45FE6DC2E231 /* CocoaMQTT-Info.plist */,
+				A54990FDE6018941AFEA2DC4359F1FA0 /* CocoaMQTT-prefix.pch */,
+				4898808F75DCC6EA0282DE20356EC4D7 /* CocoaMQTT-umbrella.h */,
+				2415EF6D1AE229A2A2CBDAD2BF562373 /* CocoaMQTT.debug.xcconfig */,
+				FC1A60D9CAEACAEA56920971520F17E2 /* CocoaMQTT.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaMQTT";
+			sourceTree = "<group>";
+		};
+		8E7B4ABFCB5BE4A5088A44C9A2E914A0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DEBF94C4CFD72718F5EA71788D32B78 /* QiscusRealtime.modulemap */,
+				3FFB0DB44B085BCA45D340A47ADAD339 /* QiscusRealtime-dummy.m */,
+				47C7E7A66B2D4406BC3311EAE9CFB8F8 /* QiscusRealtime-Info.plist */,
+				63E3DBD5612123C9EF55B4A4C381C47D /* QiscusRealtime-prefix.pch */,
+				E32EC9134D50FC143D33D2FBBB903593 /* QiscusRealtime-umbrella.h */,
+				4340749A600A1EA8687D8CBC9F6E4208 /* QiscusRealtime.debug.xcconfig */,
+				8DB98C0200BFFAFA1FD49E0EB12EB325 /* QiscusRealtime.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QiscusRealtime";
+			sourceTree = "<group>";
+		};
+		93380AB3C29A342F5D45D15DA6DCDA37 /* Pods-Simple Chat AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B277B4FB158C5E53B3060A78C29CAA80 /* Pods-Simple Chat AppTests.modulemap */,
+				3680DE66EF28C518F5387748D39BFC64 /* Pods-Simple Chat AppTests-acknowledgements.markdown */,
+				C6A1A3B7B5B8554F65B8948CAC8E13BE /* Pods-Simple Chat AppTests-acknowledgements.plist */,
+				F3EF1BCC2856E2233144B52426BA2873 /* Pods-Simple Chat AppTests-dummy.m */,
+				5332AB8E71E30ECF60E6F6C17990B910 /* Pods-Simple Chat AppTests-Info.plist */,
+				707BD941CBE746CEFD361C217E5C6C74 /* Pods-Simple Chat AppTests-umbrella.h */,
+				748DCFB7EAD7805E35CE43D3A3692D08 /* Pods-Simple Chat AppTests.debug.xcconfig */,
+				09946C430366891DAE91C526FC47C94D /* Pods-Simple Chat AppTests.release.xcconfig */,
+			);
+			name = "Pods-Simple Chat AppTests";
+			path = "Target Support Files/Pods-Simple Chat AppTests";
+			sourceTree = "<group>";
+		};
+		AFDECDFEB185BB48981EE5BE646FDC5A /* Pods-Simple Chat App */ = {
+			isa = PBXGroup;
+			children = (
+				E859797301480E003B70ABE5A2BC30E7 /* Pods-Simple Chat App.modulemap */,
+				114F0AACEAD083346D99879CD7D009A1 /* Pods-Simple Chat App-acknowledgements.markdown */,
+				9B7E47A9F6D2F52354CCE4E92D6AC22D /* Pods-Simple Chat App-acknowledgements.plist */,
+				B56354F727C63379F1A5EF62A8859642 /* Pods-Simple Chat App-dummy.m */,
+				4291FF344CE7DFD18501F68CA5D85D26 /* Pods-Simple Chat App-frameworks.sh */,
+				99BB7CBB7EF7D081FF120107A3D7C62D /* Pods-Simple Chat App-Info.plist */,
+				6E7977A22DBBCDE1E9B3C07429479BA6 /* Pods-Simple Chat App-umbrella.h */,
+				32EDB0208D03017CCD89B4E7C2FB4CBA /* Pods-Simple Chat App.debug.xcconfig */,
+				AA79C27984F38D3A1E40791C5C8440A7 /* Pods-Simple Chat App.release.xcconfig */,
+			);
+			name = "Pods-Simple Chat App";
+			path = "Target Support Files/Pods-Simple Chat App";
+			sourceTree = "<group>";
+		};
+		B65ED4CA5F7B2B4C6F95111D5D2A6AFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */,
+				E6A4E1627379D6540B81A470C575D716 /* CocoaMQTT */,
+				7E4BE5E56BF0AA939A9F689F6C71A7D5 /* Pods-Simple Chat App */,
+				06CF25021882C307B27FB50116E1BD99 /* Pods-Simple Chat App-Simple Chat AppUITests */,
+				70A6B1D3217E6E026F1AB9AD10EAE91C /* Pods-Simple Chat AppTests */,
+				BDE8968F519E9554299A0C1A28D52428 /* QiscusCore */,
+				973F7F230E1A14D2EE7D1EA4EA017D59 /* QiscusCore-QiscusCore */,
+				286DDFFCB3DE0934A785237BC5C59D08 /* QiscusRealtime */,
+				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA2ADFD358B69A8EC9810295063ED4ED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D51786E2D7AF50EEF755F37479C451D /* SwiftyJSON.modulemap */,
+				7017D11B3794514CD0E4378C1F315FAB /* SwiftyJSON-dummy.m */,
+				54A1B20AE0DF8EA8D67D334A0CAA4CE2 /* SwiftyJSON-Info.plist */,
+				599F11F317CF890B1093A102D5F851AF /* SwiftyJSON-prefix.pch */,
+				704C4803BAC52780B567FD36D9F1D8BE /* SwiftyJSON-umbrella.h */,
+				E94DBD4FF01BCC631811CA8AB30C8EAE /* SwiftyJSON.debug.xcconfig */,
+				2E23C67303ED972A8ED9B6218ECF7F0C /* SwiftyJSON.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		CCE6AB910911041902847810D1722010 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35C5A583AFCDE949097F232A84C0328E /* CocoaAsyncSocket.modulemap */,
+				447D42B93B88AC48393148EEC71455BC /* CocoaAsyncSocket-dummy.m */,
+				BDADD0F1A0D6FE6B1844DB7450AC78AE /* CocoaAsyncSocket-Info.plist */,
+				99D720FDE17C05B7903F46BCA1996995 /* CocoaAsyncSocket-prefix.pch */,
+				D75A8521D7DA515A0CE97531514585D6 /* CocoaAsyncSocket-umbrella.h */,
+				0E89B65BE1C80E0BEAD0147C77875A77 /* CocoaAsyncSocket.debug.xcconfig */,
+				37FE2F19D39E700A4794848DD9759DE4 /* CocoaAsyncSocket.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaAsyncSocket";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8275CCB4E8732497B1021FCBC240F3C2 /* Frameworks */,
+				0AE528C844C7970EFE666CD69AA118BE /* Pods */,
+				B65ED4CA5F7B2B4C6F95111D5D2A6AFF /* Products */,
+				7264674FADD0BA7160176D884BB7ABE1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D179FFE61B4B98BA492641127645B1A6 /* Pods-Simple Chat App-Simple Chat AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D653AC4CDE5BADC13B23872A5D165F7 /* Pods-Simple Chat App-Simple Chat AppUITests.modulemap */,
+				508FEBAF05B95D9B27339825990DD652 /* Pods-Simple Chat App-Simple Chat AppUITests-acknowledgements.markdown */,
+				EFB7630AE4C0AF6F0447F36651F05E56 /* Pods-Simple Chat App-Simple Chat AppUITests-acknowledgements.plist */,
+				9110D9767C85EFD12D2F09DECF37516F /* Pods-Simple Chat App-Simple Chat AppUITests-dummy.m */,
+				1810A854FA88AB6A9695EAB86D4A0405 /* Pods-Simple Chat App-Simple Chat AppUITests-frameworks.sh */,
+				DA1C884E77BB83996E77D40EF03EF166 /* Pods-Simple Chat App-Simple Chat AppUITests-Info.plist */,
+				50EB9E477D8837B73E899F63BC166CC4 /* Pods-Simple Chat App-Simple Chat AppUITests-umbrella.h */,
+				FE9DF1F20A239AEFC71EF667AAE68496 /* Pods-Simple Chat App-Simple Chat AppUITests.debug.xcconfig */,
+				5AF1865975318E4B7D81045CA9105CD8 /* Pods-Simple Chat App-Simple Chat AppUITests.release.xcconfig */,
+			);
+			name = "Pods-Simple Chat App-Simple Chat AppUITests";
+			path = "Target Support Files/Pods-Simple Chat App-Simple Chat AppUITests";
+			sourceTree = "<group>";
+		};
+		D25193D58EC2CC7FB122E1080565096F /* CocoaMQTT */ = {
+			isa = PBXGroup;
+			children = (
+				1135ED3AFA0F6B5F47EDD01FA9C5CFF0 /* Core */,
+				8680F34C605BBE8E28421C5AFE1E998A /* Support Files */,
+			);
+			name = CocoaMQTT;
+			path = CocoaMQTT;
+			sourceTree = "<group>";
+		};
+		EDCB8C362E13A973F5AF7828BBFFDDA0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D4475CE5F8B8B89965F77255A1DBE031 /* CFNetwork.framework */,
+				B71AAF788DFCD19B7120E7862E53FA74 /* CoreData.framework */,
+				FA644465D32AC73BD3446307C6BF80E4 /* Foundation.framework */,
+				90D0AE4062AEFB88BE2B6BDD9D68C02F /* MobileCoreServices.framework */,
+				EDE794DD10FC7085499A1AB52D2E8A91 /* QuartzCore.framework */,
+				0CCCC8D31D0E17A9F06857D19C7187F8 /* Security.framework */,
+				28B8DB02559F52C447089AC7B3E23FF4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F4B20B21FF77E186643113D5E541A930 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE02EA790F13863B6E3C3DB113311B45 /* Qiscus.xcdatamodeld */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F9B8DA24AA7A01FFC19223E17B6383C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A452308EDB72401F6151F92BD3B2FCE0 /* QiscusCore.modulemap */,
+				665740E50830132EC07DCC1F4180975C /* QiscusCore-dummy.m */,
+				C37E05F566C3D8DA4D8609BE4C27DCF7 /* QiscusCore-Info.plist */,
+				4DABA4E2AC2DF78C175F2082E597B187 /* QiscusCore-prefix.pch */,
+				2BE575BDB5BF3B3C29F19960C117AF31 /* QiscusCore-umbrella.h */,
+				09C950AE26C536EE800DAC0311B7364A /* QiscusCore.debug.xcconfig */,
+				84B0BD83128FA2DE12F0A98CD65592F6 /* QiscusCore.release.xcconfig */,
+				35AC605785A2D729D131CCCEE0F44981 /* ResourceBundle-QiscusCore-QiscusCore-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QiscusCore";
+			sourceTree = "<group>";
+		};
+		FFE10604D41B6454E5D707277691D8A0 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				DF3F98D9C4A0C50A6FCFAC27DF4BC01E /* GCDAsyncSocket.h */,
+				B1CE1A13649055AD6D6E82A59E333329 /* GCDAsyncSocket.m */,
+				6D9C327A572B8C7A97183C86F3CB8D9E /* GCDAsyncUdpSocket.h */,
+				7B20C839F25462E6B91DDDC9917679AA /* GCDAsyncUdpSocket.m */,
+				CCE6AB910911041902847810D1722010 /* Support Files */,
+			);
+			name = CocoaAsyncSocket;
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17317FE99BCBCAE1DCC6BF783E1EFAF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C1DD31A3A7A0FBBA1A9C88A92CAA28C /* CocoaAsyncSocket-umbrella.h in Headers */,
+				67A4DC4B4DB5321811BC3D3627AE855E /* GCDAsyncSocket.h in Headers */,
+				B19D3C79B36157522E7662E737D558EF /* GCDAsyncUdpSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BBD32653B4FD6DC42785794DBD0FB02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7873D5278392D33747E1557FCE3749D5 /* CocoaMQTT-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AB4FD715A352C1716ADCD4B1204ABA0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08065F64D7582CADED58665B6A6D2468 /* Pods-Simple Chat App-Simple Chat AppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607FCB38D77E34C995C089F257ECB77F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8596042CF00B859E386EEDDC328E8490 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6491409B154A59C1CCC5CEF848E8B6E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4897DB3A4CA7ACA1B96294F233DF40A /* QiscusRealtime.h in Headers */,
+				1E0D10660FBF21F7DC0B029B0C129BEC /* QiscusRealtime-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69413CE352EA324541EFC4A57787B6BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8019698A17ACBC2B4BB2DDD981D6ED /* Pods-Simple Chat App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7EF1E4C7731D9ABFA9F5687267FE2FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67B611414AD5515501A77BF8637F074 /* Pods-Simple Chat AppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA909E1B7EA7BBF9E27C50AD53BA6356 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4D61E414EAAA2A8885F7FD1CBED2AD /* QiscusCore.h in Headers */,
+				AF6A16B794477DEA9170279E5BE8F7DE /* QiscusCore-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4EB168A830EFA6136FA93357D1F1511A /* CocoaMQTT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9F05735753E52C5E03D09C3E19A4FE /* Build configuration list for PBXNativeTarget "CocoaMQTT" */;
+			buildPhases = (
+				3BBD32653B4FD6DC42785794DBD0FB02 /* Headers */,
+				543D9BE6407868093F1CD8F4A2627712 /* Sources */,
+				672F78584AC4C8FE63E9C4DE72A3D07A /* Frameworks */,
+				AE094930CE6D6E23F13E89A214D7515D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DB354B1E5DD952C46091CF28470C48C /* PBXTargetDependency */,
+			);
+			name = CocoaMQTT;
+			productName = CocoaMQTT;
+			productReference = E6A4E1627379D6540B81A470C575D716 /* CocoaMQTT */;
+			productType = "com.apple.product-type.framework";
+		};
+		6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0A95C19FCB7B5FAAC46BE001C359756 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
+			buildPhases = (
+				17317FE99BCBCAE1DCC6BF783E1EFAF0 /* Headers */,
+				B9BA2F3E20981E6576E8626EADB9300B /* Sources */,
+				D37DD023A3721BF2E9A52660FA8A3C6D /* Frameworks */,
+				3D473FD104BFCD98C99B267430355524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaAsyncSocket;
+			productName = CocoaAsyncSocket;
+			productReference = 6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */;
+			productType = "com.apple.product-type.framework";
+		};
+		74775E0C5D698264C06AFCEF134CA452 /* Pods-Simple Chat App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D984319D17E8BDC3C415E78EB79D6EAB /* Build configuration list for PBXNativeTarget "Pods-Simple Chat App" */;
+			buildPhases = (
+				69413CE352EA324541EFC4A57787B6BD /* Headers */,
+				CE83861801DBA337A2F7F1D475AD7172 /* Sources */,
+				D5D7F7F079E54C6E5A41DFC2B8C3D524 /* Frameworks */,
+				F6C3ACF1394578185B36E69946427C9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72392CD9D13B68CD11E89E5B2694145E /* PBXTargetDependency */,
+				0A333D49265EA81AA04BF118B011F5AD /* PBXTargetDependency */,
+				63E9DD56C709CB8C5401061A535A79A6 /* PBXTargetDependency */,
+				D8AB994BBC14FD113874B48DC7011A87 /* PBXTargetDependency */,
+				1BDA7B99A4BC3C513AAD052F7E401A41 /* PBXTargetDependency */,
+			);
+			name = "Pods-Simple Chat App";
+			productName = Pods_Simple_Chat_App;
+			productReference = 7E4BE5E56BF0AA939A9F689F6C71A7D5 /* Pods-Simple Chat App */;
+			productType = "com.apple.product-type.framework";
+		};
+		785AC2D57E3EC93618A6AD18A3A51737 /* Pods-Simple Chat App-Simple Chat AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 772DE798EA253FF874842131B801F142 /* Build configuration list for PBXNativeTarget "Pods-Simple Chat App-Simple Chat AppUITests" */;
+			buildPhases = (
+				4AB4FD715A352C1716ADCD4B1204ABA0 /* Headers */,
+				3FE50F08CBF11FE8EA6CDA9350BAE1EC /* Sources */,
+				56209A7B84C58283D03C4B57F34AB070 /* Frameworks */,
+				9BAE402069FD6AC20BCEB3DBAF353DE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CB71A29D167FDDC3D1FB1C26E0815C8 /* PBXTargetDependency */,
+				EB154C5C5FBB2092D3FD148DCBE4E51D /* PBXTargetDependency */,
+				CDC3264D95B6FF32D31E0B394B3AA2A4 /* PBXTargetDependency */,
+				DF14F5358DCBF416D45206133879FB90 /* PBXTargetDependency */,
+				25B385EF43BCD98CFF9A46D277D76FE5 /* PBXTargetDependency */,
+			);
+			name = "Pods-Simple Chat App-Simple Chat AppUITests";
+			productName = Pods_Simple_Chat_App_Simple_Chat_AppUITests;
+			productReference = 06CF25021882C307B27FB50116E1BD99 /* Pods-Simple Chat App-Simple Chat AppUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		83B7231CE2D94C92D372449B2D49C2E7 /* QiscusCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F55D83D2D795610121CC969F89E75A4 /* Build configuration list for PBXNativeTarget "QiscusCore" */;
+			buildPhases = (
+				EA909E1B7EA7BBF9E27C50AD53BA6356 /* Headers */,
+				FCEFB16130B894CC5B07BDCF646FABB6 /* Sources */,
+				4CCBAA86761921662D66BE083F15EDF6 /* Frameworks */,
+				889ED995FE6CAD8426795E903F279625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A5B97A3884A89AC5E0CDCC6D768E987 /* PBXTargetDependency */,
+				4D0C4A88609B64A0D0BF18863EB8B957 /* PBXTargetDependency */,
+				6D22EBDCC1C475FE7D2BCC4B24E5D7AC /* PBXTargetDependency */,
+			);
+			name = QiscusCore;
+			productName = QiscusCore;
+			productReference = BDE8968F519E9554299A0C1A28D52428 /* QiscusCore */;
+			productType = "com.apple.product-type.framework";
+		};
+		9FAC570CED67A42ACF00AFD5AF4F7F6B /* Pods-Simple Chat AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBAABBF2AF4DDB0EF9244E0D42E247D5 /* Build configuration list for PBXNativeTarget "Pods-Simple Chat AppTests" */;
+			buildPhases = (
+				C7EF1E4C7731D9ABFA9F5687267FE2FA /* Headers */,
+				BA6BDF18724BFE9AEB195888EA116690 /* Sources */,
+				E0824C6E88947F87CA8E5819E266ECBF /* Frameworks */,
+				2A20564ADAA124CA383666DA78493D8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F36A80B6E7EDBF91C902FE61F410548 /* PBXTargetDependency */,
+			);
+			name = "Pods-Simple Chat AppTests";
+			productName = Pods_Simple_Chat_AppTests;
+			productReference = 70A6B1D3217E6E026F1AB9AD10EAE91C /* Pods-Simple Chat AppTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7B387DB3546CC03911F790DD19082FC /* QiscusCore-QiscusCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88CFD58F69E876E3F2DA58EBF30DD38E /* Build configuration list for PBXNativeTarget "QiscusCore-QiscusCore" */;
+			buildPhases = (
+				13BDF07F71F6A90EE2B419EB1388EB10 /* Sources */,
+				C6954653374E47DE4EA374DF2D4597AC /* Frameworks */,
+				615D8A67C9CD269DCD6BF800B952B49B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QiscusCore-QiscusCore";
+			productName = QiscusCore;
+			productReference = 973F7F230E1A14D2EE7D1EA4EA017D59 /* QiscusCore-QiscusCore */;
+			productType = "com.apple.product-type.bundle";
+		};
+		BBC6F3BFD24A258E7DC1256C31730ACB /* QiscusRealtime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88100711E1CB3EBF9EA2D30AB4CD70CC /* Build configuration list for PBXNativeTarget "QiscusRealtime" */;
+			buildPhases = (
+				6491409B154A59C1CCC5CEF848E8B6E0 /* Headers */,
+				547476B4CB2ED62E6DD8FE4ACFD54A63 /* Sources */,
+				00E352BB1B8E8E16D49879E8DCE9F23B /* Frameworks */,
+				E7277F685035B514340224C86B585A34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4E99BA3E1AC4CA6DB2C9476A4507BC4 /* PBXTargetDependency */,
+			);
+			name = QiscusRealtime;
+			productName = QiscusRealtime;
+			productReference = 286DDFFCB3DE0934A785237BC5C59D08 /* QiscusRealtime */;
+			productType = "com.apple.product-type.framework";
+		};
+		D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D748AD4ED7752E65CBE4814584693A95 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				607FCB38D77E34C995C089F257ECB77F /* Headers */,
+				83DE347B6A87027BA4BB26BB6790D69F /* Sources */,
+				34CD7789F2C043E754F52571A05D6DCA /* Frameworks */,
+				A211C5E74EE4495D476BFABA4D27137F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B65ED4CA5F7B2B4C6F95111D5D2A6AFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */,
+				4EB168A830EFA6136FA93357D1F1511A /* CocoaMQTT */,
+				74775E0C5D698264C06AFCEF134CA452 /* Pods-Simple Chat App */,
+				785AC2D57E3EC93618A6AD18A3A51737 /* Pods-Simple Chat App-Simple Chat AppUITests */,
+				9FAC570CED67A42ACF00AFD5AF4F7F6B /* Pods-Simple Chat AppTests */,
+				83B7231CE2D94C92D372449B2D49C2E7 /* QiscusCore */,
+				B7B387DB3546CC03911F790DD19082FC /* QiscusCore-QiscusCore */,
+				BBC6F3BFD24A258E7DC1256C31730ACB /* QiscusRealtime */,
+				D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A20564ADAA124CA383666DA78493D8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D473FD104BFCD98C99B267430355524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615D8A67C9CD269DCD6BF800B952B49B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB7DC807CC21730D95F9E0699931CBC /* Qiscus.xcdatamodeld in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889ED995FE6CAD8426795E903F279625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEBEA0D0FB8F80019A1F082DB47FD59 /* QiscusCore-QiscusCore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BAE402069FD6AC20BCEB3DBAF353DE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A211C5E74EE4495D476BFABA4D27137F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE094930CE6D6E23F13E89A214D7515D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7277F685035B514340224C86B585A34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6C3ACF1394578185B36E69946427C9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13BDF07F71F6A90EE2B419EB1388EB10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE50F08CBF11FE8EA6CDA9350BAE1EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13295896F2DA5E91D15212182C2D4ABB /* Pods-Simple Chat App-Simple Chat AppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543D9BE6407868093F1CD8F4A2627712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4472BEB66C777CB9DE234A0138C6F652 /* CocoaMQTT.swift in Sources */,
+				DDF8C3792DC8F515F9AA3E4776F9D487 /* CocoaMQTT-dummy.m in Sources */,
+				02195F29F0FC8F97FBDFACC5B3DBEA33 /* CocoaMQTTDeliver.swift in Sources */,
+				02E9F2E3525F78E5AE2C0A77A4592FE8 /* CocoaMQTTLogger.swift in Sources */,
+				DEBFD7482CA282C7F1C0F33D9B885DAF /* CocoaMQTTMessage.swift in Sources */,
+				F2FBB8A209602CF41C09B8FFA5269FA0 /* CocoaMQTTReader.swift in Sources */,
+				E2E977D8473D6442AD1AD357165ED8EE /* CocoaMQTTSocket.swift in Sources */,
+				48E5390543282E7E009AA0C0196E2836 /* CocoaMQTTStorage.swift in Sources */,
+				11D0779ED6BE78A281420401C348DA81 /* CocoaMQTTTimer.swift in Sources */,
+				8CF8BE31C4E5746BD787762C1C907226 /* CocoaMQTTTypes.swift in Sources */,
+				ABDE012754F5AB86BFD2BE85C5FAFCCF /* Frame.swift in Sources */,
+				5274A63749E3F46B4E37FD004E6F9F8F /* FrameConnAck.swift in Sources */,
+				A3892D8D8C79835D4731BEBE5134DE8B /* FrameConnect.swift in Sources */,
+				4A301614C6AFCC8E3686A49937B45A54 /* FrameDisconnect.swift in Sources */,
+				5CAD9272E8202721B8DDE8770E060AD0 /* FramePingReq.swift in Sources */,
+				5D9965A173ECC1DFAC0811B9271F84DF /* FramePingResp.swift in Sources */,
+				878E789D6562449B702DD40FA41ADC64 /* FramePubAck.swift in Sources */,
+				A1C65B2FE5500F19001669304812B5DA /* FramePubComp.swift in Sources */,
+				3270572D3E47C8B777EDEA003BF48E9D /* FramePublish.swift in Sources */,
+				A6283F504A50FC179F8A6AF3C707E424 /* FramePubRec.swift in Sources */,
+				B4FA49CA29CAD7B9B5D7A9B4C2CBAB7B /* FramePubRel.swift in Sources */,
+				7715B10A274CE363A282054201D5AA7A /* FrameSubAck.swift in Sources */,
+				818E1041D6CAC17CF36590FD138B75B8 /* FrameSubscribe.swift in Sources */,
+				37D148371BF314CE071A623877A3931C /* FrameUnsubAck.swift in Sources */,
+				DB4CE011514782A7C0D9572A80949B4E /* FrameUnsubscribe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547476B4CB2ED62E6DD8FE4ACFD54A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DEAD52489CEC4FE9E5E47DFE7AFD7F /* Model.swift in Sources */,
+				76E807C55A2B52840533EDB5B22856DC /* MqttClient.swift in Sources */,
+				7476381EC5AF9C29DCB991A463ED0F84 /* Protocol.swift in Sources */,
+				D8CE6A1ECDDD364C30F49B1A05C43652 /* QDate.swift in Sources */,
+				74027694EB79785DAF4CCDD4D8AB7909 /* QiscusRealtime.swift in Sources */,
+				CFAF6511A8499092F2EDCF1C7C912248 /* QiscusRealtime-dummy.m in Sources */,
+				B02E21F3ABF7A50DEEDBD6CFED3265A5 /* QiscusRealtimeManager.swift in Sources */,
+				B87729108B5137AB04657E64452B27F5 /* QRLogger.swift in Sources */,
+				8916321F94FB02AAFE450411AF34FC3E /* RealtimeConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83DE347B6A87027BA4BB26BB6790D69F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F458A2F91BF7433A936F7A1E689D275 /* SwiftyJSON.swift in Sources */,
+				3A43C7B9AEC0D2A7E97AE63C130E5155 /* SwiftyJSON-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BA2F3E20981E6576E8626EADB9300B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12F482FE2022286A223FFC9BFA84F83A /* CocoaAsyncSocket-dummy.m in Sources */,
+				4FC2272F4C11472C903CFCC6A101313E /* GCDAsyncSocket.m in Sources */,
+				37B0BF2484BE142772F5429AEE5CF0B1 /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6BDF18724BFE9AEB195888EA116690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1C2FF3CC733302BE492DADEC5BB939 /* Pods-Simple Chat AppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE83861801DBA337A2F7F1D475AD7172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A735911EACA911CF9550CFD0D9648402 /* Pods-Simple Chat App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEFB16130B894CC5B07BDCF646FABB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7853B99A335FC7FDAD99DA91882086D1 /* ActiveRecord.swift in Sources */,
+				8E4CB623C10D9872F19B2B0B0C6FE1C7 /* ApiResponse.swift in Sources */,
+				6C98AB6AB8021AE5496F89DDA25A856B /* AppConfigModel.swift in Sources */,
+				5DBD37C3831E3D3DED505333DCB6558C /* Comment+CoreDataClass.swift in Sources */,
+				D49E19264FF42A60EA112CEFC1E81C54 /* Comment+CoreDataProperties.swift in Sources */,
+				BD0BF97A30CC7CC232E3612B3A0C4EAA /* CommentInfo.swift in Sources */,
+				35395CC3F19068C60265A84BCBBA0B66 /* CommentModel.swift in Sources */,
+				491FE8877DD6D9C8C5EEA78303482F3C /* CommentStorage.swift in Sources */,
+				37596E17F6AFEDA45486A2A0396EDEAB /* ConfigManager.swift in Sources */,
+				C0B9C619DC8624A85D2D4623499412ED /* Data+Json.swift in Sources */,
+				39F7C544A4AE8EEBA4483600A63DA25C /* DownloadService.swift in Sources */,
+				1F9A97EACB8477A6FBB37B0C3B826F7A /* Endpoint.swift in Sources */,
+				DAA35BEBE1CFAA913B8C8C488124D5D5 /* EndpointComment.swift in Sources */,
+				72C6BE7F9AD80477C14C8F1B66C2ABC2 /* EndpointRoom.swift in Sources */,
+				872E0DE606FB4D149A9121B87E1A6A12 /* EndpointUser.swift in Sources */,
+				B2E095A2AD2FE44657C28844DCDCC660 /* FileModel.swift in Sources */,
+				337747450FF0F385219FDF6961B6A018 /* GenericModel.swift in Sources */,
+				19CA1C924711A240A47FB69A7E5D4F0B /* HTTPUtil.swift in Sources */,
+				78367A09A7D4921579F8B24ED74B991C /* LBModel.swift in Sources */,
+				C02F2384AB8EC6DB5A41A134BA7A81B8 /* Member+CoreDataClass.swift in Sources */,
+				DCD46311889033B2064383816342BA64 /* Member+CoreDataProperties.swift in Sources */,
+				A31C09C9EB3E18156328DFE21E2073C0 /* MemberDatabase.swift in Sources */,
+				3267077488AA3CBEF588518BDE5F90B0 /* NetworkManager.swift in Sources */,
+				1FDE4A8398981A79064A1B3274E7A057 /* NetworkMessage.swift in Sources */,
+				5B6021E1EDA1CA70C384103034469D7B /* NetworkRoom.swift in Sources */,
+				F6CA86FD78A68668154FDF3F0D2B41CC /* NetworkUpload.swift in Sources */,
+				A25058966EC32D5BCC74239A7546FF05 /* NonceModel.swift in Sources */,
+				8D4251231F89393E8809F4E3F2BC488B /* ParameterEncoder.swift in Sources */,
+				51F5ED0A47B56B618DECF6EDAA9C0DBB /* ParameterEncoding.swift in Sources */,
+				C627CED7627055FADDE5A67EACC8C47F /* PersistentStore.swift in Sources */,
+				F22FD023D4740B182DA03EF8DC6F7D36 /* QError.swift in Sources */,
+				25835F9B24A256E41FB15CC8C6B50EE2 /* QiscusChannels.swift in Sources */,
+				475CCC9E599533A6C995C52CF9ADFE59 /* QiscusComment.swift in Sources */,
+				E87C75AC817D48F65D4A0B0C7B1FF115 /* QiscusConfig.swift in Sources */,
+				C976C6EED305B3CEA7599C4A6D883E07 /* QiscusConnectionDelegate.swift in Sources */,
+				6AD4A1409EF94452BAA288F30CFFBACD /* QiscusCore.swift in Sources */,
+				024D7D976E6945BE7A702D62C02E5E16 /* QiscusCore-dummy.m in Sources */,
+				CED031A91062220350A1245AF34A2CB0 /* QiscusDatabase.swift in Sources */,
+				817575E9850504AA7D26C53FE0B1F515 /* QiscusDatabaseManager.swift in Sources */,
+				C68C5E4A9659621B196098EFEC195B06 /* QiscusEventManager.swift in Sources */,
+				CB827192A859FF45062C54275308358A /* QiscusFileManager.swift in Sources */,
+				89B687A8DD0FC97349BC3B88FEABF6F7 /* QiscusHeartBeat.swift in Sources */,
+				C345F4C4E9027913A58E0170C2E225F0 /* QiscusLogger.swift in Sources */,
+				536AF3C35ED781E1FA5699296E22912B /* QiscusReachability.swift in Sources */,
+				D3296EBCF4A8A61169E10914C213D6AE /* QiscusRoom.swift in Sources */,
+				39753D2DFE53EBBCDF9F20CDBB951589 /* QiscusStorage.swift in Sources */,
+				2B6E4AA860AD7E0F50F91063D00CB707 /* QiscusSyncEventInterval.swift in Sources */,
+				0261D8E366BAE9B181D788982040179D /* QiscusThread.swift in Sources */,
+				E31985CF168CEE62A328CF8422446F67 /* QiscusWorker.swift in Sources */,
+				CE06CAC48CC80BD3075BB128A12A59DA /* QiscusWorkerManager.swift in Sources */,
+				4E14273031857E811B414C9DE4372C8F /* QUserPresence.swift in Sources */,
+				B01632489316745EED98E6ECC1E1898E /* RealtimeManager.swift in Sources */,
+				26FEC450FB83418B25675064C905E456 /* Room+CoreDataClass.swift in Sources */,
+				85E56D5F0E1FF85A89D53E917465294F /* Room+CoreDataProperties.swift in Sources */,
+				354025A7130FCA0F884AF48C064D2048 /* RoomEvent.swift in Sources */,
+				78B48C5B53F636B7B02B111BD7C28858 /* RoomModel.swift in Sources */,
+				7509F4EAF8C5FF7599FEB77D6C42E396 /* RoomStorage.swift in Sources */,
+				D15BD695460074B2DED108551D3F60DE /* Router.swift in Sources */,
+				5A7BFF69CA7D40BED8C3B26FCE8633C2 /* UIDeviceInfo.swift in Sources */,
+				F86760FAA2A9BD4D4474FD0EB4D039DF /* UserModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A333D49265EA81AA04BF118B011F5AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaMQTT;
+			target = 4EB168A830EFA6136FA93357D1F1511A /* CocoaMQTT */;
+			targetProxy = B2FC205AEA035B50672CE1804458BD04 /* PBXContainerItemProxy */;
+		};
+		0DB354B1E5DD952C46091CF28470C48C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = 55B9ADBB7DAD1E50487554F65BE46047 /* PBXContainerItemProxy */;
+		};
+		1BDA7B99A4BC3C513AAD052F7E401A41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
+			targetProxy = 0C619FAB4F15A4E14105B6ADAE041C3F /* PBXContainerItemProxy */;
+		};
+		25B385EF43BCD98CFF9A46D277D76FE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
+			targetProxy = 01D508573ED6F04C58645B72BC6CCBE4 /* PBXContainerItemProxy */;
+		};
+		2CB71A29D167FDDC3D1FB1C26E0815C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = D27CAC98DE0FDFDDED3508FB700224CD /* PBXContainerItemProxy */;
+		};
+		3F36A80B6E7EDBF91C902FE61F410548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Simple Chat App";
+			target = 74775E0C5D698264C06AFCEF134CA452 /* Pods-Simple Chat App */;
+			targetProxy = 61E5A8872FC3E1664E51CBA62BBA19CB /* PBXContainerItemProxy */;
+		};
+		4D0C4A88609B64A0D0BF18863EB8B957 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QiscusRealtime;
+			target = BBC6F3BFD24A258E7DC1256C31730ACB /* QiscusRealtime */;
+			targetProxy = 4A29AC6F9D5A6E25059024A02272F76D /* PBXContainerItemProxy */;
+		};
+		63E9DD56C709CB8C5401061A535A79A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QiscusCore;
+			target = 83B7231CE2D94C92D372449B2D49C2E7 /* QiscusCore */;
+			targetProxy = 6396DAAFCF1C7223BFCE9317148D1BBA /* PBXContainerItemProxy */;
+		};
+		6D22EBDCC1C475FE7D2BCC4B24E5D7AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
+			targetProxy = F2B42919314D95B25D5C1F6668F85866 /* PBXContainerItemProxy */;
+		};
+		72392CD9D13B68CD11E89E5B2694145E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = 8A7AE372B0747EB9FB0721C18A5CBFE5 /* PBXContainerItemProxy */;
+		};
+		8A5B97A3884A89AC5E0CDCC6D768E987 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "QiscusCore-QiscusCore";
+			target = B7B387DB3546CC03911F790DD19082FC /* QiscusCore-QiscusCore */;
+			targetProxy = 47BE58B75D76373596C8C8A3A7F2A761 /* PBXContainerItemProxy */;
+		};
+		CDC3264D95B6FF32D31E0B394B3AA2A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QiscusCore;
+			target = 83B7231CE2D94C92D372449B2D49C2E7 /* QiscusCore */;
+			targetProxy = 2EB5B4DBE151CFB60F96C57CD3ED3A85 /* PBXContainerItemProxy */;
+		};
+		D4E99BA3E1AC4CA6DB2C9476A4507BC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaMQTT;
+			target = 4EB168A830EFA6136FA93357D1F1511A /* CocoaMQTT */;
+			targetProxy = B1DE416BA7B51BD2199EDEFCEE419B80 /* PBXContainerItemProxy */;
+		};
+		D8AB994BBC14FD113874B48DC7011A87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QiscusRealtime;
+			target = BBC6F3BFD24A258E7DC1256C31730ACB /* QiscusRealtime */;
+			targetProxy = AE38D5CE7EBEB7A8EE4DBBF0DEE1E37C /* PBXContainerItemProxy */;
+		};
+		DF14F5358DCBF416D45206133879FB90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QiscusRealtime;
+			target = BBC6F3BFD24A258E7DC1256C31730ACB /* QiscusRealtime */;
+			targetProxy = 8DD73963A5AFBF2BE3B05120C140D94E /* PBXContainerItemProxy */;
+		};
+		EB154C5C5FBB2092D3FD148DCBE4E51D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaMQTT;
+			target = 4EB168A830EFA6136FA93357D1F1511A /* CocoaMQTT */;
+			targetProxy = CE4BBBEBF62916CAA273A2ECD5E24328 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		020FD33A5A042C8B1E1F77A5FB6384A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09946C430366891DAE91C526FC47C94D /* Pods-Simple Chat AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Simple Chat AppTests/Pods-Simple Chat AppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Simple Chat AppTests/Pods-Simple Chat AppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		026AC8A643ED70586379F7A056259D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E23C67303ED972A8ED9B6218ECF7F0C /* SwiftyJSON.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		36D1950D6A8E1158D32551175D6B8054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84B0BD83128FA2DE12F0A98CD65592F6 /* QiscusCore.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QiscusCore";
+				IBSC_MODULE = QiscusCore;
+				INFOPLIST_FILE = "Target Support Files/QiscusCore/ResourceBundle-QiscusCore-QiscusCore-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = QiscusCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		41DFB5F14DA3F8865551DF3E0E0C19B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E94DBD4FF01BCC631811CA8AB30C8EAE /* SwiftyJSON.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		440432C0F6A5D740E980DB126548D935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE9DF1F20A239AEFC71EF667AAE68496 /* Pods-Simple Chat App-Simple Chat AppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Simple Chat App-Simple Chat AppUITests/Pods-Simple Chat App-Simple Chat AppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Simple Chat App-Simple Chat AppUITests/Pods-Simple Chat App-Simple Chat AppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		49862E6AB50DA01E6D4BF39F4E80B82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA79C27984F38D3A1E40791C5C8440A7 /* Pods-Simple Chat App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Simple Chat App/Pods-Simple Chat App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Simple Chat App/Pods-Simple Chat App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5216EDED32790A240452859EA8D297A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AF1865975318E4B7D81045CA9105CD8 /* Pods-Simple Chat App-Simple Chat AppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Simple Chat App-Simple Chat AppUITests/Pods-Simple Chat App-Simple Chat AppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Simple Chat App-Simple Chat AppUITests/Pods-Simple Chat App-Simple Chat AppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A50D956150B85B5EC70577EE1936D5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2415EF6D1AE229A2A2CBDAD2BF562373 /* CocoaMQTT.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaMQTT/CocoaMQTT-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaMQTT/CocoaMQTT-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaMQTT/CocoaMQTT.modulemap";
+				PRODUCT_MODULE_NAME = CocoaMQTT;
+				PRODUCT_NAME = CocoaMQTT;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C6F6BF8E0C0130DB1E7F7E5B405F106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC1A60D9CAEACAEA56920971520F17E2 /* CocoaMQTT.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaMQTT/CocoaMQTT-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaMQTT/CocoaMQTT-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaMQTT/CocoaMQTT.modulemap";
+				PRODUCT_MODULE_NAME = CocoaMQTT;
+				PRODUCT_NAME = CocoaMQTT;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		88E73531C68FEC995B656F125B9BD903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E89B65BE1C80E0BEAD0147C77875A77 /* CocoaAsyncSocket.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C3FA3AFF14D27759DC39A35C48CEECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84B0BD83128FA2DE12F0A98CD65592F6 /* QiscusCore.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QiscusCore/QiscusCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QiscusCore/QiscusCore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QiscusCore/QiscusCore.modulemap";
+				PRODUCT_MODULE_NAME = QiscusCore;
+				PRODUCT_NAME = QiscusCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9DD09D0D00249C022E2A3426A4917732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37FE2F19D39E700A4794848DD9759DE4 /* CocoaAsyncSocket.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC9282E88B2F729A8FBE2D9EDA7558FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DB98C0200BFFAFA1FD49E0EB12EB325 /* QiscusRealtime.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QiscusRealtime/QiscusRealtime-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QiscusRealtime/QiscusRealtime-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QiscusRealtime/QiscusRealtime.modulemap";
+				PRODUCT_MODULE_NAME = QiscusRealtime;
+				PRODUCT_NAME = QiscusRealtime;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BD110FEF8F98B66EB63A21128289344D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09C950AE26C536EE800DAC0311B7364A /* QiscusCore.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QiscusCore";
+				IBSC_MODULE = QiscusCore;
+				INFOPLIST_FILE = "Target Support Files/QiscusCore/ResourceBundle-QiscusCore-QiscusCore-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = QiscusCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C0F1C0D47776997DEB8B2C382072003E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09C950AE26C536EE800DAC0311B7364A /* QiscusCore.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QiscusCore/QiscusCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QiscusCore/QiscusCore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QiscusCore/QiscusCore.modulemap";
+				PRODUCT_MODULE_NAME = QiscusCore;
+				PRODUCT_NAME = QiscusCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E333681B9AF927CA2648B32821A54113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32EDB0208D03017CCD89B4E7C2FB4CBA /* Pods-Simple Chat App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Simple Chat App/Pods-Simple Chat App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Simple Chat App/Pods-Simple Chat App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7216784B3649A06D3DF7EBE84EC2CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 748DCFB7EAD7805E35CE43D3A3692D08 /* Pods-Simple Chat AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Simple Chat AppTests/Pods-Simple Chat AppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Simple Chat AppTests/Pods-Simple Chat AppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F9E4C9FF60C3DFC4C78ADA562CF69B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4340749A600A1EA8687D8CBC9F6E4208 /* QiscusRealtime.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QiscusRealtime/QiscusRealtime-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QiscusRealtime/QiscusRealtime-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QiscusRealtime/QiscusRealtime.modulemap";
+				PRODUCT_MODULE_NAME = QiscusRealtime;
+				PRODUCT_NAME = QiscusRealtime;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F55D83D2D795610121CC969F89E75A4 /* Build configuration list for PBXNativeTarget "QiscusCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0F1C0D47776997DEB8B2C382072003E /* Debug */,
+				9C3FA3AFF14D27759DC39A35C48CEECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		772DE798EA253FF874842131B801F142 /* Build configuration list for PBXNativeTarget "Pods-Simple Chat App-Simple Chat AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440432C0F6A5D740E980DB126548D935 /* Debug */,
+				5216EDED32790A240452859EA8D297A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88100711E1CB3EBF9EA2D30AB4CD70CC /* Build configuration list for PBXNativeTarget "QiscusRealtime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E4C9FF60C3DFC4C78ADA562CF69B99 /* Debug */,
+				AC9282E88B2F729A8FBE2D9EDA7558FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88CFD58F69E876E3F2DA58EBF30DD38E /* Build configuration list for PBXNativeTarget "QiscusCore-QiscusCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD110FEF8F98B66EB63A21128289344D /* Debug */,
+				36D1950D6A8E1158D32551175D6B8054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0A95C19FCB7B5FAAC46BE001C359756 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88E73531C68FEC995B656F125B9BD903 /* Debug */,
+				9DD09D0D00249C022E2A3426A4917732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D748AD4ED7752E65CBE4814584693A95 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41DFB5F14DA3F8865551DF3E0E0C19B0 /* Debug */,
+				026AC8A643ED70586379F7A056259D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D984319D17E8BDC3C415E78EB79D6EAB /* Build configuration list for PBXNativeTarget "Pods-Simple Chat App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E333681B9AF927CA2648B32821A54113 /* Debug */,
+				49862E6AB50DA01E6D4BF39F4E80B82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBAABBF2AF4DDB0EF9244E0D42E247D5 /* Build configuration list for PBXNativeTarget "Pods-Simple Chat AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7216784B3649A06D3DF7EBE84EC2CC6 /* Debug */,
+				020FD33A5A042C8B1E1F77A5FB6384A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9F05735753E52C5E03D09C3E19A4FE /* Build configuration list for PBXNativeTarget "CocoaMQTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A50D956150B85B5EC70577EE1936D5D /* Debug */,
+				5C6F6BF8E0C0130DB1E7F7E5B405F106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DE02EA790F13863B6E3C3DB113311B45 /* Qiscus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				64A5B937D71BC28DE1A943FB2BD0553F /* Qiscus.xcdatamodel */,
+			);
+			currentVersion = 64A5B937D71BC28DE1A943FB2BD0553F /* Qiscus.xcdatamodel */;
+			name = Qiscus.xcdatamodeld;
+			path = Source/QiscusCore/Database/QiscusDatabase/Qiscus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
